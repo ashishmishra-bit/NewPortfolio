@@ -1,0 +1,22 @@
+.sidebar{
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 78px;
+    background: #11101d;
+    z-index: 100;
+    transition: all 0.5s ease;
+    padding: 15px 0px 25px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 700px){
+    .sidebar{
+        display: none;
+    }
+}
+
