@@ -1,3 +1,6 @@
+::-webkit-scrollbar{
+    width: 0px;
+}
 .home-section{
     position: relative;
     background-color: #111318;
@@ -7,13 +10,10 @@
     transition: all 0.5s ease;
 }
 .Landing-header{
-    /* background-color: #11101d; */
     background-color: black;
     width: 100%;
     height: 100vh;
     min-height: 600px;
-     /* background-color: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(100px); */
 }
 .typingEffect{
     position: absolute;
@@ -23,21 +23,20 @@
     font-size: 60px;
     font-weight: 500;
 }
-/* ABOUT Section */
-.Landing-About-Head{
+.Landing-Heading{
     font-family: 'Montserrat', sans-serif;
     font-size: 144px;
-    /* font-style: normal; */
     font-weight: 700;
     line-height: 176px;
     letter-spacing: 0.3em;
-    text-align: center;
-    color: #FFFFFF26
-    ;
+    color: #FFFFFF26;
     height: 200px;
-    /* width: 752px; */
-    /* border-radius: nullpx; */
-    
+}
+.Timeline{
+    background-color:#e9ecef;
+    width: 2px;
+    margin-left: 24px;
+    position: relative;
 }
 @media screen and (max-width: 700px){
     .home-section{
