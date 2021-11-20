@@ -21,19 +21,19 @@ const Navbar = () => {
                 </Link>
                 <div className="sidebar-header">
                     <Link to="/" className="flex justify-center mt-4">
-                        <img src={Journey} alt="logo" style={{width:"35px"}} />
+                        <img src={Journey} alt="logo" style={{width:"30px"}} />
                     </Link>
                     <Link to="/" className="flex justify-center mt-6">
                         <img src={Projects} alt="logo" style={{width:"25px"}} />
                     </Link>
                     <Link to="/" className="flex justify-center mt-6">
-                        <img src={Blogs} alt="logo" style={{width:"30px"}} />
+                        <img src={Blogs} alt="logo" style={{width:"25px"}} />
                     </Link>
                     <Link to="/" className="flex justify-center mt-6">
-                        <img src={Work} alt="logo" style={{width:"30px"}} />
+                        <img src={Work} alt="logo" style={{width:"25px"}} />
                     </Link>
                     <Link to="/" className="flex justify-center mt-6">
-                        <img src={Achievments} alt="logo" style={{width:"30px"}} />
+                        <img src={Achievments} alt="logo" style={{width:"25px"}} />
                     </Link>
                     
                 </div>
@@ -45,7 +45,7 @@ const Navbar = () => {
                     title="Facebook" 
                     className="flex justify-center mt-4"
                 >
-                    <img src={Facebook} alt="Facebook" style={{width:"30px"}} />
+                    <img src={Facebook} alt="Facebook" style={{width:"25px"}} />
                 </a>
                 <a href="https://www.linkedin.com/in/ankit-raj-a3405b1b0"
                     target="_blank"
@@ -53,7 +53,7 @@ const Navbar = () => {
                     title="Linkedin" 
                     className="flex justify-center mt-4"
                 >
-                    <img src={Linkedin} alt="Linkedin" style={{width:"30px"}} />
+                    <img src={Linkedin} alt="Linkedin" style={{width:"25px"}} />
                 </a>
                 <a href="https://instagram.com/ankit_r.a.j?igshid=895xw0qgqmx2"
                     target="_blank"
@@ -61,15 +61,7 @@ const Navbar = () => {
                     title="Instagram" 
                     className="flex justify-center mt-4"
                 >
-                    <img src={Instagram} alt="Instagram" style={{width:"30px"}} />
-                </a>
-                <a href="https://twitter.com/ankit__raj__?s=08"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    title="Twitter" 
-                    className="flex justify-center mt-4"
-                >
-                    <img src={Twitter} alt="Twitter" style={{width:"30px"}} />
+                    <img src={Instagram} alt="Instagram" style={{width:"25px"}} />
                 </a>
                 <a href="https://github.com/AnkitRajCode"
                     target="_blank"
@@ -77,7 +69,15 @@ const Navbar = () => {
                     title="Github" 
                     className="flex justify-center mt-4"
                 >
-                    <img src={Github} alt="Github" style={{width:"30px"}} />
+                    <img src={Github} alt="Github" style={{width:"25px"}} />
+                </a>
+                <a href="https://twitter.com/ankit__raj__?s=08"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    title="Twitter" 
+                    className="flex justify-center mt-4"
+                >
+                    <img src={Twitter} alt="Twitter" style={{width:"25px"}} />
                 </a>
             </div>
         </div>
