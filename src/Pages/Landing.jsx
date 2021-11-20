@@ -5,6 +5,7 @@ import Particles from 'particles-bg'
 import Typewriter from 'typewriter-effect'
 import Profile from '../images/avatar.png'
 import JourneyLanding from '../components/JourneyLanding'
+import TechAndTools from '../components/TechAndTools'
 
 
 export default function Landing() {
@@ -51,6 +52,8 @@ export default function Landing() {
                 {/* JOURNEY SECTION */}
                 <JourneyLanding />
 
+                {/* TECH & TOOLS SECTION */}
+                <TechAndTools />
             </div>
         </div>
     )
