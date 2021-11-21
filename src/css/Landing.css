@@ -1,3 +1,8 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
 ::-webkit-scrollbar{
     width: 0px;
 }
@@ -32,6 +37,7 @@
     color: #FFFFFF26;
     height: 200px;
 }
+
 
 /* Journey */
 .Timeline{
