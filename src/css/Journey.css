@@ -1,0 +1,14 @@
+.Journey-header{
+    width: 100%;
+    height: 100vh;
+    border-bottom: 2px solid white;
+}
+.journeyMaze{
+    border: 3px solid transparent;
+    width: 150px;
+    height: 150px;
+    clip-path : polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
