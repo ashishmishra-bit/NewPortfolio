@@ -4,11 +4,31 @@ import '../css/Landing.css'
 import Particles from 'particles-bg'
 import Typewriter from 'typewriter-effect'
 import Profile from '../images/avatar.png'
+
 import JourneyLanding from '../components/JourneyLanding'
 import TechAndTools from '../components/TechAndTools'
+import useEffect from 'react';
 
 
-export default function Landing() {
+// Animation Imports
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init({
+    duration: 2000,
+    delay: 5000,
+    easing: 'ease-in-out',
+});
+AOS.refresh();
+
+
+const Landing = () => {
+
+    // useEffect(() => {
+    //     Aos.init({
+    //         duration: 2000
+    //     });
+    // }, []);
     return (
         <div className="landing">
             <Sidebar />
@@ -18,6 +38,7 @@ export default function Landing() {
                     <Particles color="#d400ff" type="cobweb" />
                     <div className="typingEffect">
                         <p>~Hello World~</p>
+                       
                         <p>I am Ashish Kumar Mishra</p>
                         <Typewriter
                             onInit={(typewriter) => {
@@ -37,13 +58,13 @@ export default function Landing() {
                 </div>
 
                 {/* ABOUT SECTION */}
-                <div className="px-24 py-28">
-                    <div className="Landing-Heading md:ml-16">ABOUT</div>
+                <div className="px-24 py-28 overflow-hidden">
+                    <div className="Landing-Heading md:ml-16" data-aos="fade-in" data-aos-duration="9000">ABOUT</div>
                     <div className="flex md:flex-row">
-                        <div className="w-3/4 text-white text-2xl pr-28 text-justify">
-                            Hello guys, this is Ashish Kumar Mishra. I am an earnest techie and enthusiast about interests in every new update that comes up. I love to be hardworking and dedicated to whatever I take up as a task.  Web development attracts me the most. I have also learned Android Development. Apart from that, I do know about SEO. I have also earned certification in UI/UX. I have also completed 2 projects namely. One of them being a music and billing app for android and the other are 4 to 5 website designs for UI/UX.
+                        <div className="w-3/4 text-2xl pr-28 text-justify" style={{color:"#B5B4B4"}} data-aos="slide-right" data-aos-duration="9000">
+                        Hello Folks, I am Ashish Kumar Mishra. I am a hardworking, self-motivated, and well-organized person, sincerely dedicated to my allocated job. I am an IT undergraduate scholar with a penchant for exploring various innovations that are emerging in the technical field. Web Development fascinates me the most. I have acquired skills in Android development and SEO and currently, I have lessons in Data Science and working on research papers. I have obtained certification in UI/UX and terminated with designing websites and projects. I am brushing up my skills to attain more perfection and intend to generate newness in the field of Information and Technology.
                         </div>
-                        <div className="w-1/4">
+                        <div className="w-1/4" data-aos="slide-left" data-aos-duration="9000">
                             <img src={Profile} alt="Profile" style={{width:"220px"}} />
                         </div>
                     </div>
@@ -56,5 +77,7 @@ export default function Landing() {
                 <TechAndTools />
             </div>
         </div>
-    )
-}
+    );
+};
+
+export default Landing;
