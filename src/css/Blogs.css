@@ -1,0 +1,9 @@
+.blogMaze{
+    width: 300px;
+    height: 300px;
+    clip-path : polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+}
