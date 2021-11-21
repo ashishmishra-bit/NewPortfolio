@@ -24,8 +24,8 @@ export default function JourneyLanding() {
                         <img src={KiitLogo} alt="work" style={{width:"50px"}} />
                         <div className="text-white ml-8" >
                             <div className="text-xl">Web & Android Developer & UI/UX Designer(GFG-KIIT)</div>
-                            <div className="text-lg py-2">December-2020 - Present</div>
-                            <div className="text-base pr-24  text-justify">I am responsible for making projects on the above mentioned domains and helping others in the club with the same. I am also responsible for leading some of the major events which the club puts forward for all the students and developers around the University.</div>
+                            <div className="text-lg py-2"style={{color:"#ACACAC"}}>December-2020 - Present</div>
+                            <div className="text-base pr-24  text-justify " style={{color:"#B5B4B4"}}>I am responsible for making projects on the above mentioned domains and helping others in the club with the same. I am also responsible for leading some of the major events which the club puts forward for all the students and developers around the University.</div>
                         </div>
                     </div>
 
@@ -45,8 +45,8 @@ export default function JourneyLanding() {
                         <img src={KiitLogo} alt="work" style={{width:"50px"}} />
                         <div className="text-white ml-8"  >
                             <div className="text-xl">Web & Android Developer & UI/UX Designer(GFG-KIIT)</div>
-                            <div className="text-lg py-2">December-2020 - Present</div>
-                            <div className="text-base pr-24  text-justify">I am responsible for making projects on the above mentioned domains and helping others in the club with the same. I am also responsible for leading some of the major events which the club puts forward for all the students and developers around the University.</div>
+                            <div className="text-lg py-2" style={{color:"#ACACAC"}}>December-2020 - Present</div>
+                            <div className="text-base pr-24  text-justify" style={{color:"#B5B4B4"}}>I am responsible for making projects on the above mentioned domains and helping others in the club with the same. I am also responsible for leading some of the major events which the club puts forward for all the students and developers around the University.</div>
                         </div>
                     </div>
 

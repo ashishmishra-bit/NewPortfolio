@@ -40,8 +40,8 @@ export default function Landing() {
                 <div className="px-24 py-28">
                     <div className="Landing-Heading md:ml-16">ABOUT</div>
                     <div className="flex md:flex-row">
-                        <div className="w-3/4 text-white text-2xl pr-28 text-justify">
-                            Hello guys, this is Ashish Kumar Mishra. I am an earnest techie and enthusiast about interests in every new update that comes up. I love to be hardworking and dedicated to whatever I take up as a task.  Web development attracts me the most. I have also learned Android Development. Apart from that, I do know about SEO. I have also earned certification in UI/UX. I have also completed 2 projects namely. One of them being a music and billing app for android and the other are 4 to 5 website designs for UI/UX.
+                        <div className="w-3/4 text-2xl pr-28 text-justify" style={{color:"#B5B4B4"}}>
+                        Hello Folks, I am Ashish Kumar Mishra. I am a hardworking, self-motivated, and well-organized person, sincerely dedicated to my allocated job. I am an IT undergraduate scholar with a penchant for exploring various innovations that are emerging in the technical field. Web Development fascinates me the most. I have acquired skills in Android development and SEO and currently, I have lessons in Data Science and working on research papers. I have obtained certification in UI/UX and terminated with designing websites and projects. I am brushing up my skills to attain more perfection and intend to generate newness in the field of Information and Technology.
                         </div>
                         <div className="w-1/4">
                             <img src={Profile} alt="Profile" style={{width:"220px"}} />
