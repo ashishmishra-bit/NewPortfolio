@@ -7,3 +7,14 @@
     background-repeat: no-repeat;
     border: 1px solid black;
 }
+
+.blogs-header{
+    height: 60vh;
+}
+.blogs-Heading-text{
+    font-size: 144px;
+    font-weight: 700;
+    line-height: 170px;
+    letter-spacing: 0.25em;
+    color: #F8F8F869;
+}
