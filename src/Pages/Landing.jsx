@@ -3,7 +3,7 @@ import Sidebar from '../components/Sidebar'
 import '../css/Landing.css'
 import Particles from 'particles-bg'
 import Typewriter from 'typewriter-effect'
-import Profile from '../images/avatar.png'
+import Profile from '../images/avatar2.png'
 
 import JourneyLanding from '../components/JourneyLanding'
 import TechAndTools from '../components/TechAndTools'
@@ -69,8 +69,8 @@ const Landing = () => {
                         <div className="w-3/4 text-2xl pr-28 text-justify" style={{ color: "#B5B4B4" }} data-aos="slide-right" data-aos-duration="9000">
                             Hello Folks, I am Ashish Kumar Mishra. I am a hardworking, self-motivated, and well-organized person, sincerely dedicated to my allocated job. I am an IT undergraduate scholar with a penchant for exploring various innovations that are emerging in the technical field. Web Development fascinates me the most. I have acquired skills in Android development and SEO and currently, I have lessons in Data Science and working on research papers. I have obtained certification in UI/UX and terminated with designing websites and projects. I am brushing up my skills to attain more perfection and intend to generate newness in the field of Information and Technology.
                         </div>
-                        <div className="w-1/4" data-aos="slide-left" data-aos-duration="9000">
-                            <img src={Profile} alt="Profile" style={{ width: "220px" }} />
+                        <div className=" profileImage" data-aos="slide-left" data-aos-duration="9000">
+                            <img src={Profile}alt="Profile"  />
                         </div>
                     </div>
                 </div>

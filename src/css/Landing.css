@@ -37,6 +37,18 @@
     height: 200px;
 }
 
+.profileImage{
+    position: absolute;
+    width: 486px;
+    height: 342px;
+    left: 962px; 
+   top: 750px;
+    
+filter: grayscale(100%);
+background-blend-mode: luminosity;
+
+
+}
 
 /* Journey */
 .Timeline{
