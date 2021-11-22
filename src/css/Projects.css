@@ -29,3 +29,20 @@
     height: 499px;
     width: 511px;
 }
+
+/* POPUP CARD */
+.Project-about{
+    width: 800px;
+    height: 500px;
+    background: #171B1E;
+    border-radius: 10px;
+
+}
+.TechStack-SubHeading{
+    font-size: 50px;
+    font-weight: 800;
+    line-height: 61px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:  #9A9A9A;
+}
