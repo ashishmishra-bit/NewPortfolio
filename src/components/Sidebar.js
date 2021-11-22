@@ -4,7 +4,7 @@ import logo from '../images/logo.png'
 import Journey from '../icons/Journey.png'
 import Projects from '../icons/Projects.png'
 import Blogs from '../icons/Blogs.png'
-import Work from '../icons/Work.png'
+// import Work from '../icons/Work.png'
 import Achievments from '../icons/Achievments.png'
 import Facebook from '../icons/Facebook.png'
 import Github from '../icons/Github.png'
@@ -20,19 +20,19 @@ const Navbar = () => {
                     <img src={logo} alt="logo" style={{width:"45px"}} />
                 </Link>
                 <div className="sidebar-header">
-                    <Link to="/" className="flex justify-center mt-4">
+                    <Link to="/journey" className="flex justify-center mt-4">
                         <img src={Journey} alt="logo" style={{width:"30px"}} />
                     </Link>
-                    <Link to="/" className="flex justify-center mt-6">
+                    <Link to="/projects" className="flex justify-center mt-6">
                         <img src={Projects} alt="logo" style={{width:"25px"}} />
                     </Link>
-                    <Link to="/" className="flex justify-center mt-6">
+                    <Link to="/blogs" className="flex justify-center mt-6">
                         <img src={Blogs} alt="logo" style={{width:"25px"}} />
                     </Link>
-                    <Link to="/" className="flex justify-center mt-6">
+                    {/* <Link to="/" className="flex justify-center mt-6">
                         <img src={Work} alt="logo" style={{width:"25px"}} />
-                    </Link>
-                    <Link to="/" className="flex justify-center mt-6">
+                    </Link> */}
+                    <Link to="/achievements" className="flex justify-center mt-6">
                         <img src={Achievments} alt="logo" style={{width:"25px"}} />
                     </Link>
                     
