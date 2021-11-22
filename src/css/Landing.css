@@ -37,6 +37,13 @@
     height: 200px;
 }
 
+.profileImage{
+opacity:80%;
+/* filter: grayscale(100%); */
+/* background-blend-mode: luminosity; */
+
+
+}
 
 /* Journey */
 .Timeline{
