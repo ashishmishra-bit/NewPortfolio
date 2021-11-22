@@ -1,4 +1,4 @@
-import React from 'react'
+import React , { useEffect , useRef } from 'react'
 import '../css/Projects.css'
 import ProjectBackgroundTwo from '../images/ProjectBackgroundTwo.png'
 import ProjectHeader from '../images/ProjectHeader.png'
@@ -8,22 +8,42 @@ import css from "../icons/css.svg"
 // import { Link } from 'react-router-dom'
 import Footer from '../components/Footer'
 import Sidebar from '../components/Sidebar'
+import lottie from 'lottie-web';
+// import  Project from '../LottieAssets/project.json';
 
 export default function Projects() {
+
+    const container = useRef(null)
+
+    useEffect(() => {
+        lottie.loadAnimation({
+            container: document.querySelector('#container'),
+            renderer: 'svg',
+            loop: true,
+            autoplay: true,
+            animationData: require('../LottieAssets/project.json')
+        })
+    } , [])
+
     return (
         <div>
             <Sidebar />
             <div className="home-section pb-20">
                 {/* HEADING SECTION */}
                 <div className="projects-header flex flex-row">
+                
                     <div className="projects-Heading-text w-1/2 flex ml-20 items-center">MY<br/>WORKS</div>
+                    
                     <div className="projects-Heading-image w-1/2 mt-20 flex justify-center items-center">
-                        <img src={ProjectHeader} alt="ProjectHeader" />
+                    <div id = "container" ref={container}></div>
+                        {/* <img src={ProjectHeader} alt="Projects Header" /> */}
+                        
                     </div>
                 </div>
+                
 
                 {/* BODY SECTION */}
-                <div className="flex flex-row">
+                <div className="flex flex-row pt-28">
                     <div className="w-1/2 flex flex-col items-end">
                         <div className="projectCard flex flex-row items-end">
                             <div className="w-1/2 lg text-white">GFG-KIIT </div>
@@ -90,3 +110,4 @@ export default function Projects() {
         </div>
     )
 }
+
