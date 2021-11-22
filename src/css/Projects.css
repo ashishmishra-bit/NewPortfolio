@@ -13,5 +13,20 @@
     font-weight: 600;
     line-height: 50px;
     text-align: left;
+}
+.projects-header{
+    height: 100vh;
+}
+.projects-Heading-text{
+    font-size: 120px;
+    font-weight: 700;
+    line-height: 146px;
+    letter-spacing: 0.25em;
+    text-align: left;
+    color: #F8F8F869;
+}
 
+.projects-Heading-image img{
+    height: 499px;
+    width: 511px;
 }
