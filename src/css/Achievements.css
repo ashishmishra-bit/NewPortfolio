@@ -1,0 +1,16 @@
+.achivements-header{
+    height: 80vh;
+}
+.achivements-Heading-text{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 59px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    color: #989898;
+}
+
+.achivements-Heading-image img{
+    height: 400px;
+    width: 400px;
+}
