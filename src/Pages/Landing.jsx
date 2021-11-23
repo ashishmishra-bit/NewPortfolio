@@ -3,7 +3,7 @@ import Sidebar from '../components/Sidebar'
 import '../css/Landing.css'
 import Particles from 'particles-bg'
 import Typewriter from 'typewriter-effect'
-import Profile from '../images/avatar.png'
+import Profile from '../images/avatar3.png'
 
 import JourneyLanding from '../components/JourneyLanding'
 import TechAndTools from '../components/TechAndTools'
