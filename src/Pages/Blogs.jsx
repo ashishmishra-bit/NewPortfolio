@@ -26,7 +26,7 @@ export default function Blogs() {
                         <div className="text-lg">Date - 21st Nov , 2021</div>
                         <div className="text-2xl font-semibold my-2">How To Store Sessions in MongoDB Using Express.Js</div>
                         <div className="text-lg my-2 text-justify">MongoDB is one of the very popular database used by many developers for different things. First step is to install mongoose package using npm (node package manager ) to access the MongoDB database –</div>
-                        <Link to="/thisRoute" className="text-lg" style={{color:"#5AE86B"}}>Read More &#x21e8;</Link>
+                        <Link to="/seeblogs" className="text-lg" style={{color:"#5AE86B"}}>Read More &#x21e8;</Link>
                     </div>
                 </div>
 
@@ -40,7 +40,7 @@ export default function Blogs() {
                             <div className="text-lg mt-5">Date - 21st Nov , 2021</div>
                             <div className="text-2xl font-semibold my-2">How To Store Sessions in MongoDB Using Express.Js</div>
                             <div className="text-lg my-2 text-justify mr-20">MongoDB is one of the very popular database used by many developers for different things. First step is to install mongoose package using npm (node package manager ) to access the MongoDB database –</div>
-                            <Link to="/thisRoute" className="text-lg" style={{color:"#5AE86B"}}>Read More &#x21e8;</Link>
+                            <Link to="/seeblogs" className="text-lg" style={{color:"#5AE86B"}}>Read More &#x21e8;</Link>
                         </div>
                     </div>
 
@@ -52,7 +52,7 @@ export default function Blogs() {
                             <div className="text-lg mt-5">Date - 21st Nov , 2021</div>
                             <div className="text-2xl font-semibold my-2">How To Store Sessions in MongoDB Using Express.Js</div>
                             <div className="text-lg my-2 text-justify mr-20">MongoDB is one of the very popular database used by many developers for different things. First step is to install mongoose package using npm (node package manager ) to access the MongoDB database –</div>
-                            <Link to="/thisRoute" className="text-lg" style={{color:"#5AE86B"}}>Read More &#x21e8;</Link>
+                            <Link to="/seeblogs" className="text-lg" style={{color:"#5AE86B"}}>Read More &#x21e8;</Link>
                         </div>
                     </div>
 
@@ -66,7 +66,7 @@ export default function Blogs() {
                         <div className="text-lg">Date - 21st Nov , 2021</div>
                         <div className="text-2xl font-semibold my-2">How To Store Sessions in MongoDB Using Express.Js</div>
                         <div className="text-lg my-2 text-justify">MongoDB is one of the very popular database used by many developers for different things. First step is to install mongoose package using npm (node package manager ) to access the MongoDB database –</div>
-                        <Link to="/thisRoute" className="text-lg" style={{color:"#5AE86B"}}>Read More &#x21e8;</Link>
+                        <Link to="/seeblogs" className="text-lg" style={{color:"#5AE86B"}}>Read More &#x21e8;</Link>
                     </div>
                 </div>
 
