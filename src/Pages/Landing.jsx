@@ -39,7 +39,7 @@ const Landing = () => {
             <div className="home-section">
                 {/* HEADING SECTION */}
                 <div className="Landing-header">
-                    <Particles color="#d400ff" type="cobweb" />
+                    <Particles color="#48CAE4" type="cobweb" />
                     <div className="typingEffect">
                         <Fade down  duration = {3000} delay = {500}>
                             <p>~Hello World~</p>
