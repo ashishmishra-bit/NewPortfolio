@@ -22,10 +22,10 @@
     font-weight: 700;
     line-height: 146px;
     letter-spacing: 0.25em;
-    color: #F8F8F869;
-    /* -webkit-text-stroke: #F8F8F869 3px; */
+    /* color: #F8F8F869; */
+    -webkit-text-stroke: #F8F8F869 3px;
     color: transparent;
-    background:url(../images/back.png);
+    background:url(../images/back2.png);
     -webkit-background-clip: text;
     background-position: 0 0;
     animation: back 20s linear infinite;
