@@ -1,0 +1,16 @@
+.Blog-Title{
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: 61px;
+letter-spacing: 0.05em;
+text-align: center;
+
+}
+.Blog-Body{
+    background: #171B1E;
+backdrop-filter: blur(100px);
+/* Note: backdrop-filter has minimal browser support */
+
+border-radius: 23px 23px 0px 0px;
+}
