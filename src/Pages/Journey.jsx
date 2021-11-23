@@ -15,9 +15,13 @@ export default function Journey() {
                 {/* HEADING SECTION */}
                 <div className="Journey-header flex flex-col justify-center items-center">
                     <div className="Landing-Heading mb-10">JOURNEY</div>
+                    <p className = "journey-header-text">My Brain Has Too Many Tabs open 😉 😉 😉 
+                    </p>
 
+                    {/* 
                     <div className="text-8xl text-white ">Odyssey of being</div>
                     <div className="text-4xl text-white mt-8">Abecedarian TO Crackerjack</div>
+                    */}
                 </div>
 
                 <div className="Landing-Journey px-24 py-10">

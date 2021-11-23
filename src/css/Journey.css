@@ -1,7 +1,7 @@
 .Journey-header{
     width: 100%;
-    height: 100vh;
-    border-bottom: 2px solid white;
+    height: 50vh;
+    /* border-bottom: 2px solid white; */
 }
 .journeyMaze{
     border: 3px solid transparent;
@@ -11,4 +11,22 @@
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
+}
+.journey-header-text{
+position: absolute;
+width: 875px;
+height: 88px;
+left: 280px;
+top:110px;
+color:#E1E1E1;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+
 }
