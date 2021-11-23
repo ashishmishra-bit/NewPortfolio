@@ -24,7 +24,7 @@ const Navbar = () => {
                 </Link>
                 <div className="sidebar-header">
                     <Link to="/journey" className="flex justify-center mt-4">
-                        <img src={Journey} alt="logo" style={{ width: "60px" }} onMouseEnter={() => setTooltipStatus(1)} onMouseLeave={() => setTooltipStatus(0)} />
+                        <img src={Journey} alt="logo" style={{ width: "40px" }} onMouseEnter={() => setTooltipStatus(1)} onMouseLeave={() => setTooltipStatus(0)} />
                         
                         <div className="relative mt-20 md:mt-0" onMouseEnter={() => setTooltipStatus(1)} onMouseLeave={() => setTooltipStatus(0)}>
                             
@@ -47,7 +47,7 @@ const Navbar = () => {
                     </div>
                     </Link>
                     <Link to="/projects" className="flex justify-center mt-6">
-                        <img src={Projects} alt="logo" style={{ width: "60px" }} onMouseEnter={() => setTooltipStatus(2)} onMouseLeave={() => setTooltipStatus(0)} />
+                        <img src={Projects} alt="logo" style={{ width: "40px" }} onMouseEnter={() => setTooltipStatus(2)} onMouseLeave={() => setTooltipStatus(0)} />
 
                         <div className="relative mt-20 md:mt-0" onMouseEnter={() => setTooltipStatus(2)} onMouseLeave={() => setTooltipStatus(0)}>
                             
@@ -71,7 +71,7 @@ const Navbar = () => {
 
                     </Link>
                     <Link to="/blogs" className="flex justify-center mt-6">
-                        <img src={Blogs} alt="logo" style={{ width: "60px" }} onMouseEnter={() => setTooltipStatus(3)} onMouseLeave={() => setTooltipStatus(0)}/>
+                        <img src={Blogs} alt="logo" style={{ width: "40px" }} onMouseEnter={() => setTooltipStatus(3)} onMouseLeave={() => setTooltipStatus(0)}/>
 
                         <div className="relative mt-20 md:mt-0" onMouseEnter={() => setTooltipStatus(3)} onMouseLeave={() => setTooltipStatus(0)}>
                             
@@ -98,7 +98,7 @@ const Navbar = () => {
                         <img src={Work} alt="logo" style={{width:"25px"}} />
                     </Link> */}
                     <Link to="/achievements" className="flex justify-center mt-6">
-                        <img src={Achievments} alt="logo" style={{ width: "60px" }} onMouseEnter={() => setTooltipStatus(4)} onMouseLeave={() => setTooltipStatus(0)} />
+                        <img src={Achievments} alt="logo" style={{ width: "40px" }} onMouseEnter={() => setTooltipStatus(4)} onMouseLeave={() => setTooltipStatus(0)} />
 
                         <div className="relative mt-20 md:mt-0" onMouseEnter={() => setTooltipStatus(4)} onMouseLeave={() => setTooltipStatus(0)}>
                             
