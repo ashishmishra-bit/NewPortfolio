@@ -1,11 +1,11 @@
 import { Link } from 'react-router-dom'
 import '../css/Sidebar.css'
 import logo from '../images/logo.png'
-import Journey from '../icons/Journey.png'
-import Projects from '../icons/Projects.png'
-import Blogs from '../icons/Blogs.png'
+import Journey from '../icons/Journey2.png'
+import Projects from '../icons/Projects2.png'
+import Blogs from '../icons/Blogs2.png'
 // import Work from '../icons/Work.png'
-import Achievments from '../icons/Achievments.png'
+import Achievments from '../icons/Achievments2.png'
 import Facebook from '../icons/Facebook.png'
 import Github from '../icons/Github.png'
 import Instagram from '../icons/Instagram.png'
@@ -21,19 +21,19 @@ const Navbar = () => {
                 </Link>
                 <div className="sidebar-header">
                     <Link to="/journey" className="flex justify-center mt-4">
-                        <img src={Journey} alt="logo" style={{width:"30px"}} />
+                        <img src={Journey} alt="logo" style={{width:"60px"}} />
                     </Link>
                     <Link to="/projects" className="flex justify-center mt-6">
-                        <img src={Projects} alt="logo" style={{width:"25px"}} />
+                        <img src={Projects} alt="logo" style={{width:"60px"}} />
                     </Link>
                     <Link to="/blogs" className="flex justify-center mt-6">
-                        <img src={Blogs} alt="logo" style={{width:"25px"}} />
+                        <img src={Blogs} alt="logo" style={{width:"60px"}} />
                     </Link>
                     {/* <Link to="/" className="flex justify-center mt-6">
                         <img src={Work} alt="logo" style={{width:"25px"}} />
                     </Link> */}
                     <Link to="/achievements" className="flex justify-center mt-6">
-                        <img src={Achievments} alt="logo" style={{width:"25px"}} />
+                        <img src={Achievments} alt="logo" style={{width:"60px"}} />
                     </Link>
                     
                 </div>
