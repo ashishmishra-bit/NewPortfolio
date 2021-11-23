@@ -8,7 +8,7 @@ import { Zoom, Flip } from 'react-reveal';
 
 AOS.init({
     duration: 2000,
-    delay: 5000,
+    delay: 3000,
     easing: 'ease-in-out',
 });
 AOS.refresh();
@@ -37,10 +37,10 @@ export default function JourneyLanding() {
                             </Zoom>
                         </div>
                         <div data-aos="fade-right" className="text-white ml-8 overflow-hidden" >
-                            <div className="text-xl">Web & Android Developer & UI/UX Designer(GFG-KIIT)</div>
+                            <div className="text-xl">Full Stack Developer & UI/UX Designer(GFG-KIIT)</div>
                             <div className="text-lg py-2" style={{ color: "#ACACAC" }}>December-2020 - Present</div>
                             <Flip x duration={5000} delay={2000}>
-                                <div className="text-base pr-24  text-justify " style={{ color: "#B5B4B4" }}>I am responsible for making projects on the above mentioned domains and helping others in the club with the same. I am also responsible for leading some of the major events which the club puts forward for all the students and developers around the University.</div>
+                                <div className="text-base pr-24  text-justify " style={{ color: "#B5B4B4" }}>I have contributed in the projects from all domains(Web, Android, UI/UX, ML) I am also responsible for leading some of the major events which the club puts forward for all the students and developers around the University.</div>
                             </Flip>
                         </div>
                     </div>
@@ -64,10 +64,13 @@ export default function JourneyLanding() {
                             </Zoom>
                         </div>
                         <div data-aos="fade-left" className="text-white ml-8 overflow-hidden"  >
-                            <div className="text-xl">Web & Android Developer & UI/UX Designer(GFG-KIIT)</div>
-                            <div className="text-lg py-2" style={{ color: "#ACACAC" }}>December-2020 - Present</div>
-                            <Flip x duration={5000} delay={2000}>
-                            <div className="text-base pr-24  text-justify" style={{ color: "#B5B4B4" }}>I am responsible for making projects on the above mentioned domains and helping others in the club with the same. I am also responsible for leading some of the major events which the club puts forward for all the students and developers around the University.</div>
+                            <div className="text-xl">B.Tech Information Technology (KIIT) </div>
+                            <div className="text-lg py-2" style={{ color: "#ACACAC" }}>July-2019 - Present</div>
+                            <Flip x duration={3000} delay={1000}>
+                            <div className="text-base pr-24  text-justify" style={{ color: "#B5B4B4" }}>I am a 3rd year IT student , currently studying in KIIT. I secured 8.5 CGPA in my 2nd Year. I have started doing development stuffs from mid of my 1st year and development facinated me a lot.
+                            I also got the opportunity to do research work and publish it. I am working on Deep Learning technologies and my papers will be published soon.
+
+                            </div>
                             </Flip>
                         </div>
                     </div>

@@ -4,6 +4,10 @@ import workExp from '../icons/workExp.png'
 import KiitLogo from '../icons/KiitLogo.png'
 import Narangi from '../images/Narangi.png'
 import Company from '../images/Company.png'
+import Freelance from '../images/freelance.png'
+import Kenisha from '../images/kenisha.png'
+import Gfgkiit from '../images/gfgkiit.png'
+import A2d from '../images/a2d.png'
 import '../css/Journey.css'
 import Footer from '../components/Footer'
 
@@ -40,44 +44,46 @@ export default function Journey() {
                             <div className="Timeline h-36"></div>
 
                             <div className="Journey-Heading  flex flex-row items-center -mt-20 ">
-                                <img src={KiitLogo} alt="work" style={{width:"50px"}} />
+                                <img src={Gfgkiit} alt="work" style={{width:"50px"}} className="z-10" />
                                 <div className="text-white ml-8" >
-                                    <div className="text-xl">Web & Android Developer & UI/UX Designer(GFG-KIIT)</div>
+                                    <div className="text-xl">Full Stack Developer & UI/UX Designer(GFG-KIIT)</div>
                                     <div className="text-lg py-2"style={{color:"#ACACAC"}}>December-2020 - Present</div>
-                                    <div className="text-base pr-24  text-justify " style={{color:"#B5B4B4"}}>I am responsible for making projects on the above mentioned domains and helping others in the club with the same. I am also responsible for leading some of the major events which the club puts forward for all the students and developers around the University.</div>
+                                    <div className="text-base pr-24  text-justify " style={{color:"#B5B4B4"}}>I have contributed in the projects from all domains(Web, Android, UI/UX, ML) I am also responsible for leading some of the major events which the club puts forward for all the students and developers around the University.</div>
                                 </div>
                             </div>
 
                             <div className="Timeline h-64 -mt-20"></div>
 
                             <div className="Journey-Heading  flex flex-row items-center -mt-20">
-                                <img src={KiitLogo} alt="work" style={{width:"50px"}} />
+                                <img src={Freelance} alt="freelancecomunitee.com" style={{width:"50px"}} className="z-10"/>
                                 <div className="text-white ml-8" >
-                                    <div className="text-xl">Web & Android Developer & UI/UX Designer(GFG-KIIT)</div>
-                                    <div className="text-lg py-2"style={{color:"#ACACAC"}}>December-2020 - Present</div>
-                                    <div className="text-base pr-24  text-justify " style={{color:"#B5B4B4"}}>I am responsible for making projects on the above mentioned domains and helping others in the club with the same. I am also responsible for leading some of the major events which the club puts forward for all the students and developers around the University.</div>
+                                    <div className="text-xl">Web Developer (freelancecomunitee.com)</div>
+                                    <div className="text-lg py-2"style={{color:"#ACACAC"}}>January-2021 - May-2021</div>
+                                    <div className="text-base pr-24  text-justify " style={{color:"#B5B4B4"}}>I was responsible for developing the website and integrating it with automation tools like Integromat , Automate.io ,Zapier , Mailchimp,etc.
+                                    I also learned new cloud and linux technologies like Linode, Vultr and also how to manage the servers.</div>
                                 </div>
                             </div>
 
                             <div className="Timeline h-64 -mt-20"></div>
 
                             <div className="Journey-Heading  flex flex-row items-center -mt-20">
-                                <img src={KiitLogo} alt="work" style={{width:"50px"}} />
+                                <img src={Kenisha} alt="work" style={{width:"50px"}} className="z-10" />
                                 <div className="text-white ml-8" >
-                                    <div className="text-xl">Web & Android Developer & UI/UX Designer(GFG-KIIT)</div>
-                                    <div className="text-lg py-2"style={{color:"#ACACAC"}}>December-2020 - Present</div>
-                                    <div className="text-base pr-24  text-justify " style={{color:"#B5B4B4"}}>I am responsible for making projects on the above mentioned domains and helping others in the club with the same. I am also responsible for leading some of the major events which the club puts forward for all the students and developers around the University.</div>
+                                    <div className="text-xl">Web Developer (Kenisha Styles)
+                                    </div>
+                                    <div className="text-lg py-2"style={{color:"#ACACAC"}}>July-2020 - September-2020</div>
+                                    <div className="text-base pr-24  text-justify " style={{color:"#B5B4B4"}}>I was responsible for developing the company website and collecting the data for user visit , updating the website with new contents on regular basis, and updating the UI to increase user interaction .</div>
                                 </div>
                             </div>
 
                             <div className="Timeline h-64 -mt-20"></div>
 
                             <div className="Journey-Heading  flex flex-row items-center -mt-20">
-                                <img src={KiitLogo} alt="work" style={{width:"50px"}} />
+                                <img src={A2d} alt="work" style={{width:"50px"}} className="z-10" />
                                 <div className="text-white ml-8" >
-                                    <div className="text-xl">Web & Android Developer & UI/UX Designer(GFG-KIIT)</div>
-                                    <div className="text-lg py-2"style={{color:"#ACACAC"}}>December-2020 - Present</div>
-                                    <div className="text-base pr-24  text-justify " style={{color:"#B5B4B4"}}>I am responsible for making projects on the above mentioned domains and helping others in the club with the same. I am also responsible for leading some of the major events which the club puts forward for all the students and developers around the University.</div>
+                                    <div className="text-xl">Web Developer (A2D Web)</div>
+                                    <div className="text-lg py-2"style={{color:"#ACACAC"}}>November-2020 - January-2021</div>
+                                    <div className="text-base pr-24  text-justify " style={{color:"#B5B4B4"}}>I developed the company website through WordPress. I got the to learn about WordPress and how it functions. Learned new web scripting language PHP .</div>
                                 </div>
                             </div>
 
