@@ -27,12 +27,9 @@ AOS.refresh();
 
 
 const Landing = () => {
+    
 
-    // useEffect(() => {
-    //     Aos.init({
-    //         duration: 2000
-    //     });
-    // }, []);
+    
     return (
         <div className="landing">
             <Sidebar />
@@ -69,7 +66,8 @@ const Landing = () => {
                         <div className="w-3/4 text-2xl pr-28 text-justify" style={{ color: "#B5B4B4" }} data-aos="slide-right" data-aos-duration="9000">
                             Hello Folks, I am Ashish Kumar Mishra. I am a hardworking, self-motivated, and well-organized person, sincerely dedicated to my allocated job. I am an IT undergraduate scholar with a penchant for exploring various innovations that are emerging in the technical field. Web Development fascinates me the most. I have acquired skills in Android development and SEO and currently, I have lessons in Data Science and working on research papers. I have obtained certification in UI/UX and terminated with designing websites and projects. I am brushing up my skills to attain more perfection and intend to generate newness in the field of Information and Technology.
                         </div>
-                        <div className=" profileImage w-4/12 -mt-7" data-aos="slide-left" data-aos-duration="9000">
+                        <div className="text profileImage w-4/12 -mt-7" data-aos="slide-left" data-aos-duration="9000">
+                          
                             <img src={Profile}alt="Profile"  />
                         </div>
                     </div>
