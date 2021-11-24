@@ -17,3 +17,23 @@
 .description{
     color: #979797;
 }
+
+
+/* COMPETETIVE PROGRAMMING ACHIVEMENT */
+.competetive-card{
+    width: 380px;
+    padding: 20px 30px;
+    background-color: #171B1E;
+    border-radius: 18px;
+}
+.Divide-Line{
+    height: 50px;
+    width: 2px;
+    background-color: white;
+}
+.Rating{
+    padding: 2px 5px;
+    height: 28px;
+    border-radius: 2px;
+    background-color:#BEC9D0;
+}
