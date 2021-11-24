@@ -46,7 +46,7 @@ export default function Achievements() {
                         </div>
 
                         <p  className="text-lg font-semibold mt-5 mb-2">Badges</p>
-                        <div className="flex flex-row animate-pulse">
+                        <div className="flex flex-row ">
                             <img src={problemSolvingBadge} alt="problemSolvingBadge" style={{width:"65px",height:"55px"}} />
                             <img src={CppBadge} alt="CppBadge" className="ml-3" style={{width:"65px",height:"55px"}} />
                             <img src={JavaBadge} alt="JavaBadge" className="ml-3" style={{width:"65px",height:"55px"}} />
@@ -98,7 +98,7 @@ export default function Achievements() {
                         </div>
 
                         <p  className="text-lg font-semibold mt-5 mb-2 ">Badges</p>
-                        <div className="flex flex-row animate-pulse">
+                        <div className="flex flex-row ">
                         <img src={Dp} alt="problemSolvingBadge" style={{width:"66px",height:"66px"}} />
                         <img src={Ds} alt="CppBadge" className="ml-3" style={{width:"66px",height:"66px"}} />
                         <img src={Algo} alt="JavaBadge" className="ml-3" style={{width:"66px",height:"66px"}} />
@@ -109,7 +109,7 @@ export default function Achievements() {
 
                     </div>
 
-                    {/* TODO:CODECHIEF CARD */}
+                    {/* CODECHIEF CARD */}
                     {/* 
                         <div className="competetive-card">
                         <div className="flex flex-row items-center">

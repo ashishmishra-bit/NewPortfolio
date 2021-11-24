@@ -102,9 +102,9 @@ export default function Journey() {
                                 <div className="text-4xl text-white ml-8" style={{color:"#ACACAC"}}>Education</div>
                             </div>
 
-                            <div className="Timeline h-32"></div>
+                            <div className="Timeline h-36"></div>
 
-                            <div className="Journey-Heading flex flex-row items-center -mt-20">
+                            <div className="Journey-Heading flex flex-row items-center -mt-24">
                                 <img src={KiitLogo} alt="work" style={{width:"50px"}} />
                                 <div className="text-white ml-8"  >
                                     <div className="text-xl">B.Tech Information Technology (KIIT)</div>
@@ -114,7 +114,7 @@ export default function Journey() {
                                 </div>
                             </div>
 
-                            <div className="Timeline h-64 -mt-20"></div>
+                            <div className="Timeline h-64 -mt-24"></div>
 
                             <div className="Journey-Heading  flex flex-row items-center -mt-20">
                                 <img src={Apsn} alt="work" style={{width:"50px"}} className="z-10"/>

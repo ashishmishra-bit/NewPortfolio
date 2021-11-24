@@ -57,10 +57,10 @@ export default function JourneyLanding() {
 
                     <div className="Timeline h-32"></div>
 
-                    <div className="Journey-Heading flex flex-row items-center -mt-20">
+                    <div className="Journey-Heading flex flex-row items-center -mt-24">
                         <div data-aos="fade-up">
                             <Zoom>
-                                <img src={KiitLogo} alt="work" style={{ width: "200px" }} />
+                                <img src={KiitLogo} alt="work" style={{ width: "280px" }} />
                             </Zoom>
                         </div>
                         <div data-aos="fade-left" className="text-white ml-8 overflow-hidden"  >
