@@ -29,5 +29,13 @@
         background-repeat: no-repeat;
         border: 1px solid black;
     }
-    
+    .blogs-header{
+        height: 20vh;
+    }
+    .blogs-Heading-text{
+        font-size: 40px;
+        line-height: 80px;
+        letter-spacing: 0.25em;
+        text-align: center;
+    }
 }

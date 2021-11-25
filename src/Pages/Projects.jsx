@@ -87,7 +87,7 @@ export default function Projects() {
                 {/* HEADING SECTION */}
                 <div className="projects-header flex flex-col-reverse md:flex-row">
                 
-                    <div className="projects-Heading-text md:w-1/2 flex ml-12 md:ml-20 items-center">MY<br/>WORKS</div>
+                    <div className="projects-Heading-text md:w-1/2 flex ml-12 md:ml-20 items-center">MY <br className="hidden md:block" /> WORKS</div>
                     
                     <div className="projects-Heading-image md:w-1/2 mt-20 flex justify-center items-center">
                         <div id = "container" ref={container}></div>
