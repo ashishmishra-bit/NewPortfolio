@@ -18,6 +18,16 @@
     color: #979797;
 }
 
+.achivements-Title-Heading{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+    font-weight: 700;
+    line-height: 176px;
+    letter-spacing: 0.3em;
+    color: #FFFFFF26;
+    height: 200px;
+}
+
 
 /* COMPETETIVE PROGRAMMING ACHIVEMENT */
 .competetive-card{
@@ -36,4 +46,29 @@
     height: 28px;
     border-radius: 2px;
     background-color:#BEC9D0;
+}
+@media screen and (max-width: 600px){
+    .achivements-header{
+        height: 50vh;
+    }
+    .achivements-Heading-text{
+        font-size: 25px;
+        font-weight: 700;
+        line-height: 39px;
+        text-align: justify!important;
+        letter-spacing: 0.00em;
+        text-align: center;
+        color: #989898;
+        margin-top: 20px;
+    }
+    .achivements-Heading-image img{
+        height: 200px;
+        width: 200px;
+    }
+    .achivements-Title-Heading{
+        font-size: 30px;
+        line-height: 46px;
+        margin-top: 50px;
+        height: 50px;
+    }
 }
