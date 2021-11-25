@@ -19,39 +19,39 @@ import { Link } from 'react-router-dom'
 
 export default function ProjectLanding() {
     return (
-        <div className="px-24 py-16">
+        <div className="px-2 md:px-24 py-16">
 
             <div className="Landing-Heading text-center mb-10">PROJECTS</div>
             
-            <div className="flex flex-row">
-                <div className="w-1/2 flex flex-col items-end">
+            <div className="flex flex-col md:flex-row ">
+                <div className="md:w-1/2 flex flex-col items-center md:items-end">
                     <div className="projectCard flex flex-row items-end" style={{backgroundImage:`url(${Project1})`}}>
                     
-                        <div className="w-1/2 lg text-white">Geek Music Bot </div>
+                        <div className="w-1/2 text-white">Geek Music Bot </div>
                         <div className="w-1/2 flex flex-row justify-end mb-4">
-                            <img src={javaScript} alt="javaScript" className="mr-3" style={{width:"30px",height:"30px"}} />
-                            <img src={Nodejs} alt="html" className="mr-3 -mt-2" style={{width:"50px",height:"50px"}} />
-                            <img src={Express} alt="css" style={{width:"60px",height:"30px"}} />
+                            <img src={javaScript} alt="javaScript" className="mr-3" />
+                            <img src={Nodejs} alt="html" className="mr-3" />
+                            <img src={Express} alt="css" />
                         </div>
                     </div>
                     <div className="projectCard flex flex-row items-end mt-4" style={{backgroundImage:`url(${Project2})`}}>
-                        <div className="w-1/2 lg text-white">Be Fresh Groceries </div>
+                        <div className="w-1/2 text-white">Be Fresh Groceries </div>
                         <div className="w-1/2 flex flex-row justify-end mb-4">
-                            <img src={javaScript} alt="javaScript" className="mr-3" style={{width:"30px",height:"30px"}} />
-                            <img src={Wordpress} alt="html" className="mr-3" style={{width:"30px",height:"30px"}} />
-                            <img className="mr-3" src={css} alt="css" style={{width:"30px",height:"30px"}} />
-                            <img className="mr-3" src={html} alt="css" style={{width:"30px",height:"30px"}} />
-                            <img className="-mt-2" src={Php} alt="css" style={{width:"50px",height:"50px" , color:"white"}} />
+                            <img src={javaScript} alt="javaScript" className="mr-3" />
+                            <img src={Wordpress} alt="html" className="mr-3" />
+                            <img className="mr-3" src={css} alt="css" />
+                            <img className="mr-3" src={html} alt="css" />
+                            <img className="-mt-1" src={Php} alt="css" />
                         </div>
                     </div>
                 </div>
-                <div className="w-1/2">
-                    <div className="projectCard flex flex-row items-end ml-4" style={{width:"472px",height:"550px",backgroundImage:`url(${Project3})`}}>
+                <div className="mt-4 md:mt-0 md:w-1/2">
+                    <div className="projectCard-long flex flex-row items-end ml-4" style={{backgroundImage:`url(${Project3})`}}>
                     <div className="w-1/2 lg text-white">Simhan's e-VedaShree</div>
                         <div className="w-1/2 flex flex-row justify-end mb-4">
-                            <img src={Java} alt="javaScript" className="mr-3" style={{width:"40px",height:"40px"}} />
-                            <img src={Firebase} alt="html" className="mr-3" style={{width:"40px",height:"40px"}} />
-                            <img src={Kotlin} alt="css" style={{width:"40px",height:"40px"}} />
+                            <img src={Java} alt="javaScript" className="mr-3"  />
+                            <img src={Firebase} alt="html" className="mr-3"  />
+                            <img src={Kotlin} alt="css"/>
                         </div>
                     </div>
                 </div>
