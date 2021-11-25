@@ -17,6 +17,7 @@ import { Fade, Zoom } from 'react-reveal';
 import ProjectLanding from '../components/ProjectLanding'
 import Footer from '../components/Footer'
 import BlogsLanding from '../components/BlogsLanding'
+import Navbar from '../components/Navbar'
 // ..
 AOS.init({
     duration: 2000,
@@ -33,9 +34,11 @@ const Landing = () => {
     return (
         <div className="landing">
             <Sidebar />
+            
             <div className="home-section">
                 {/* HEADING SECTION */}
                 <div className="Landing-header">
+                <Navbar />
                     <Particles color="#48CAE4" type="cobweb" />
                     <div className="typingEffect">
                         <Fade down  duration = {3000} delay = {500}>

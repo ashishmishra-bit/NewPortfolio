@@ -14,7 +14,7 @@ import Linkedin from '../icons/Linkedin.png'
 import Twitter from '../icons/Twitter.png'
 
 
-const Navbar = () => {
+const Sidebar = () => {
     const [tooltipStatus, setTooltipStatus] = useState(0);
     return (
         <div className="sidebar">
@@ -170,4 +170,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Sidebar

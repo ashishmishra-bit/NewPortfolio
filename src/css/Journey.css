@@ -13,20 +13,37 @@
     background-repeat: no-repeat;
 }
 .journey-header-text{
-position: absolute;
-width: 875px;
-height: 88px;
-left: 280px;
-top:110px;
-color:#E1E1E1;
-font-family: Montserrat;
-font-style: normal;
-font-weight: bold;
-font-size: 36px;
-line-height: 44px;
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
+    position: absolute;
+    /* width: 875px; */
+    height: 88px;
+    left: 280px;
+    top:110px;
+    color:#E1E1E1;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
 
+@media screen and (max-width: 600px){
+    .Journey-header{
+        height: 40vh;
+    }
+    .journey-header-text{
+        position: absolute;
+        height: 88px;
+        left: 10px;
+        top:100px;
+        color:#E1E1E1;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 44px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: 0.04em;
+    }
 }
