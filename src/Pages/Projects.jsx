@@ -108,10 +108,13 @@ export default function Projects() {
                                 <img src={Express} alt="css" style={{width:"60px",height:"30px"}} />
                             </div>
                         </div>
-                        {/* Card One Popup */}
+                        {/* Card One Popup - this popup is only mobile responsive */}
                         <div className="bg-modal1">
-                            <div className="Project-about flex flex-row justify-center">
-                                <div className="w-1/2 pr-10">
+                            <div className="Project-about flex flex-col md:flex-row justify-center">
+                                <div className="md:w-1/2 md:pr-10">
+                                    <div className="flex justify-end md:px-5 mt-5 md:hidden" onClick={displayNone1}>
+                                        <img src={cross} alt="cross" style={{width:"25px"}} />
+                                    </div>
                                     <div className="h-1/2">
                                         <img src={Project1} alt="{ProjectBackgroundTwo}" style={{height:"100%",width:"100%",borderBottomRightRadius:"120px"}} />
                                     </div>
@@ -124,8 +127,8 @@ export default function Projects() {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="w-1/2 flex flex-col justify-between">
-                                    <div className="flex justify-end px-5 mt-5" onClick={displayNone1}>
+                                <div className="md:w-1/2 flex flex-col justify-between mt-10 md:mt-0">
+                                    <div className="md:flex justify-end px-5 mt-5 hidden md:block" onClick={displayNone1}>
                                         <img src={cross} alt="cross" style={{width:"25px"}} />
                                     </div>
                                     <div className="text-white text-base px-5 text-justify" style={{color:"#B5B4B4"}}>This Application allows you to stream music from <span className="text-green-300">YouTube</span> while you are connected to voice channels </div>
