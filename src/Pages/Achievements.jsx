@@ -20,6 +20,7 @@ import Ds from '../icons/DS.png'
 import Algo from '../icons/algo.png'
 import Algo2 from '../icons/algo2.png'
 import Navbar from '../components/Navbar'
+import Certificates from '../components/Certificates'
 
 export default function Achievements() {
     return (
@@ -180,122 +181,71 @@ export default function Achievements() {
                 </div>
 
                 <div className="achivements-Title-Heading text-center mb-10 uppercase">Certifications</div>
-                <div className="flex flex-col md:flex-row mx-5 md:mx-28">
-                    <div className="md:w-1/4 flex justify-center">
-                        <img src={HackerRankLogo} alt="HackerRankLogo" style={{width:"200px"}} />
-                    </div>
-                    <div className="md:w-3/4 flex flex-col justify-center mt-10 md:mt-0">
-                        <div className="text-lg md:text-5xl text-white text-center md:text-left">Problem Solving (Basic) Certificate</div>
-                        <div className="description text-lg my-2 text-center md:text-left">HackerRank</div>
-                        <div className=" description text-lg mb-2 text-center md:text-left">Issue September , 2021 - No expiration date</div>
-                        <a href="https://www.hackerrank.com/certificates/2d7d83a79116" className="text-lg text-white flex flex-row items-center justify-center md:justify-start" target="_blank">
-                            <img src={credentials} alt="credentials" style={{width:"20px",height:"20px"}} />
-                            <span className=" description ml-2">View Credential</span>
-                        </a>
-                    </div>
-                </div>
+                
+                <Certificates 
+                    imgUrl = {HackerRankLogo}
+                    title="Problem Solving (Basic) Certificate"
+                    organization="HackerRank"
+                    date="Issue September , 2021 - No expiration date"
+                    link="https://www.hackerrank.com/certificates/2d7d83a79116"
+                
+                />
+                <Certificates 
+                    imgUrl = {HackerRankLogo}
+                    title="Problem Solving (Intermediate) Certificate"
+                    organization="HackerRank"
+                    date="Issue September , 2021 - No expiration date"
+                    link="https://www.hackerrank.com/certificates/d682e68f64f8"
+                
+                />
+                <Certificates 
+                    imgUrl = {Eudonix}
+                    title="Socket Programming"
+                    organization="Eduonix Learning Solutions Pvt Ltd"
+                    date="Issued August , 2021 - No expiration date"
+                    link="https://www.eduonix.com/certificate/2cc7d367ae"
+                
+                />
+                <Certificates 
+                imgUrl = {Coursera}
+                title="AWS Fundamentals: Going Cloud-Native"
+                organization="Coursera"
+                date="Issue June , 2020 - No expiration date"
+                link="https://www.coursera.org/account/accomplishments/certificate/E4DSTYJMXKUJ"
+            
+                />
+                <Certificates 
+                imgUrl = {Udemy}
+                title="Complete Machine Learning"
+                organization="Udemy"
+                date="Issue April , 2020 - No expiration date"
+                link="https://udemy-certificate.s3.amazonaws.com/pdf/UC-0ed139a0-4c15-4742-a97e-1fd3750a9bb5.pdf"
+            
+                />
 
-                <div className="flex flex-col md:flex-row mx-5 md:mx-28 mt-20">
-                    <div className="md:w-1/4 flex justify-center">
-                        <img src={HackerRankLogo} alt="HackerRankLogo" style={{width:"200px"}} />
-                    </div>
-                    <div className="md:w-3/4 flex flex-col justify-center mt-10 md:mt-0">
-                        <div className="text-lg md:text-5xl text-white text-center md:text-left">Problem Solving (Intermediate) Certificate</div>
-                        <div className="description text-lg my-2 text-center md:text-left">HackerRank</div>
-                        <div className="description text-lg mb-2 text-center md:text-left">Issue September , 2021 - No expiration date</div>
-                        <a href="https://www.hackerrank.com/certificates/d682e68f64f8" className="text-lg text-white flex flex-row items-center justify-center md:justify-start" target="_blank">
-                            <img src={credentials} alt="credentials" style={{width:"20px",height:"20px"}} />
-                            <span className=" description ml-2">View Credential</span>
-                        </a>
-                    </div>
-                </div>
-
-                <div className="flex flex-col md:flex-row mx-5 md:mx-28 mt-20">
-                    <div className="md:w-1/4 flex justify-center">
-                        <img src={Eudonix} alt="Eudonix Logo" style={{width:"200px"}} />
-                    </div>
-                    <div className="md:w-3/4 flex flex-col justify-center mt-10 md:mt-0">
-                        <div className="text-lg md:text-5xl text-white text-center md:text-left">Socket Programming</div>
-                        <div className="description text-lg my-2 text-center md:text-left">Eduonix Learning Solutions Pvt Ltd</div>
-                        <div className="description text-lg mb-2 text-center md:text-left">Issued August , 2021 - No expiration date</div>
-                        <a href="https://www.eduonix.com/certificate/2cc7d367ae" className="text-lg text-white flex flex-row items-center justify-center md:justify-start" target="_blank">
-                            <img src={credentials} alt="credentials" style={{width:"20px",height:"20px"}} />
-                            <span className="description  ml-2">View Credential</span>
-                        </a>
-                    </div>
-                </div>
-                <div className="flex flex-col md:flex-row mx-5 md:mx-28 mt-20">
-                    <div className="md:w-1/4 flex justify-center">
-                        <img src={Coursera} alt="Coursera Logo" style={{width:"200px"}} />
-                    </div>
-                    <div className="md:w-3/4 flex flex-col justify-center mt-10 md:mt-0">
-                        <div className="text-lg md:text-5xl text-white text-center md:text-left">AWS Fundamentals: Going Cloud-Native</div>
-                        <div className="description text-lg my-2 text-center md:text-left">Coursera</div>
-                        <div className="description text-lg mb-2 text-center md:text-left">Issue June , 2020 - No expiration date</div>
-                        <a href="https://www.coursera.org/account/accomplishments/certificate/E4DSTYJMXKUJ" className="text-lg text-white flex flex-row items-center justify-center md:justify-start" target="_blank">
-                            <img src={credentials} alt="credentials" style={{width:"20px",height:"20px"}} />
-                            <span className="description ml-2">View Credential</span>
-                        </a>
-                    </div>
-                </div>
-                <div className="flex flex-col md:flex-row mx-5 md:mx-28 mt-20">
-                    <div className="md:w-1/4 flex justify-center">
-                        <img src={Udemy} alt="Udemy Logo" style={{width:"200px"}} />
-                    </div>
-                    <div className="md:w-3/4 flex flex-col justify-center mt-10 md:mt-0">
-                        <div className="text-lg md:text-5xl text-white text-center md:text-left">Complete Machine Learning</div>
-                        <div className="description text-lg my-2 text-center md:text-left">Udemy</div>
-                        <div className="description text-lg mb-2 text-center md:text-left">Issue April , 2020 - No expiration date</div>
-                        <a href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-0ed139a0-4c15-4742-a97e-1fd3750a9bb5.pdf" className="text-lg text-white flex flex-row items-center justify-center md:justify-start" target="_blank">
-                            <img src={credentials} alt="credentials" style={{width:"20px",height:"20px"}} />
-                            <span className="description ml-2">View Credential</span>
-                        </a>
-                    </div>
-                </div>
-                <div className="flex flex-col md:flex-row mx-5 md:mx-28 mt-20">
-                    <div className="md:w-1/4 flex justify-center">
-                        <img src={Coursera} alt="Coursera Logo" style={{width:"200px"}} />
-                    </div>
-                    <div className="md:w-3/4 flex flex-col justify-center mt-10 md:mt-0">
-                        <div className="text-lg md:text-5xl text-white text-center md:text-left">SEO Fundamentals</div>
-                        <div className="description text-lg my-2 text-center md:text-left">Coursera</div>
-                        <div className="description text-lg mb-2 text-center md:text-left">Issue July , 2020 - No expiration date</div>
-                        <a href="https://www.coursera.org/account/accomplishments/verify/3S2BWL95EQMN?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course" className="text-lg text-white flex flex-row items-center justify-center md:justify-start" target="_blank">
-                            <img src={credentials} alt="credentials" style={{width:"20px",height:"20px"}} />
-                            <span className="description ml-2">View Credential</span>
-                        </a>
-                    </div>
-                </div>
-
-                <div className="flex flex-col md:flex-row mx-5 md:mx-28 mt-20">
-                    <div className="md:w-1/4 flex justify-center">
-                        <img src={Coursera} alt="Coursera Logo" style={{width:"200px"}} />
-                    </div>
-                    <div className="md:w-3/4 flex flex-col justify-center mt-10 md:mt-0">
-                        <div className="text-lg md:text-5xl text-white text-center md:text-left">Introduction to Search Engine Optimisation</div>
-                        <div className="description text-lg my-2 text-center md:text-left">Coursera</div>
-                        <div className="description text-lg mb-2 text-center md:text-left">Issue June , 2020 - No expiration date</div>
-                        <a href="https://www.coursera.org/account/accomplishments/certificate/TGWSGCSH7RNT" className="text-lg text-white flex flex-row items-center justify-center md:justify-start" target="_blank">
-                            <img src={credentials} alt="credentials" style={{width:"20px",height:"20px"}} />
-                            <span className="description ml-2">View Credential</span>
-                        </a>
-                    </div>
-                </div>
-
-                <div className="flex flex-col md:flex-row mx-5 md:mx-28 mt-20">
-                    <div className="md:w-1/4 flex justify-center">
-                        <img src={Coursera} alt="Coursera Logo" style={{width:"200px"}} />
-                    </div>
-                    <div className="md:w-3/4 flex flex-col justify-center mt-10 md:mt-0">
-                        <div className="text-lg md:text-5xl text-white text-center md:text-left">Fundamentals Of Graphics Design</div>
-                        <div className="description text-lg my-2 text-center md:text-left">Coursera</div>
-                        <div className="description text-lg mb-2 text-center md:text-left">Issue July , 2020 - No expiration date</div>
-                        <a href="https://www.coursera.org/account/accomplishments/certificate/4AQ2KAANT7ML" className="text-lg text-white flex flex-row items-center justify-center md:justify-start" target="_blank">
-                            <img src={credentials} alt="credentials" style={{width:"20px",height:"20px"}} />
-                            <span className="description ml-2">View Credential</span>
-                        </a>
-                    </div>
-                </div>
+                <Certificates 
+                imgUrl = {Coursera}
+                title="SEO Fundamentals"
+                organization="Coursera"
+                date="Issue July , 2020 - No expiration date"
+                link="https://www.coursera.org/account/accomplishments/verify/3S2BWL95EQMN?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course"
+            
+                />
+                <Certificates 
+                imgUrl = {Coursera}
+                title="Introduction to Search Engine Optimisation"
+                organization="Coursera"
+                date="Issue June , 2020 - No expiration date"
+                link="https://www.coursera.org/account/accomplishments/certificate/TGWSGCSH7RNT"
+            
+                />
+                <Certificates 
+                imgUrl = {Coursera}
+                title="Fundamentals Of Graphics Design"
+                organization="Coursera"
+                date="Issue July , 2020 - No expiration date"
+                link="https://www.coursera.org/account/accomplishments/certificate/4AQ2KAANT7ML"            
+                />               
 
             </div>
             <Footer />

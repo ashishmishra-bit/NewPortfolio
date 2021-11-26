@@ -175,380 +175,181 @@ export default {
 
     //Journey Data End
 
-    services: [
-        {
-            title: 'Web Development',
-            desc: 'I have been developing scalable Website and Web Applications from past 1 year. I have Developed almost all type of websites.',
-            icon: <LanguageIcon />
-        },
-        {
-            title: 'Android & Flutter Development',
-            desc: 'I have been developing & learning Android Development from past 3-4 months. I have developed 3 Android Application',
-            icon: <PhoneAndroidIcon />
-        },
-        {
-            title: 'UI / UX Designer',
-            desc: 'I gained the interest in UI/UX designing as I started with Front-End development and it always facinated me.',
-            icon: <ShutterSpeedIcon />
-        },
-    ],
 
-    skills: [
-        {
-            title: "Front-End",
-            desc: [
-                "ReactJs",
-                "JavaScript",
-                "Bootstrap",
-                "Materia UI",
-                "SAAS & Tailwind css",
-                "Wordpress"
-            ],
-        },
-        {
-            title: "Back-End",
-            desc: [
-                "Node.js",
-                "Java",
-                "Python",
-                "Django",
-                "Express.js",
-                "PHP",
-                "Dart"
-            ],
-        },
-        {
-            title: "Databases",
-            desc: [
-                "Firebase",
-                "MySQL",
-                "MongoDB",
-                "NoSQL",
-                "SQL Lite"
-            ],
-        },
-        {
-            title: "Graphics",
-            desc: [
-                "Figma",
-                "Adobe XD",
-                "Adobe Photoshop",
-                "Adobe illustrator"
-            ],
-        },
-    ],
+    //Project Data Starts
 
     projects: [
+
+        //Project section 1 start
+
         {
-            tag: 'Websites',
-            images: Port,
-            title: 'Notes Application',
-            caption: 'PHP coded CRUD Application',
-            desc: 'Its a simple PHP project. Basically known as CRUD Application. It Use Bootstrap and Css for front-end design.',
+            
+            title: 'Discord Music Bot',
+            imgUrl: Project1,
+            techStack1: javaScript,
+            techStack2:Nodejs,
+            techStack3:Express,
+            desc1: 'This Application allows you to stream music from YouTube while you are connected to voice channels',
+            desc2: 'The application has multiple option like  PLay/Pause Option , Queueing the song , Song can be Looped',
+            desc3: 'The application is built using a Javascript Library know as Discod.Js , Youtube API and is Hoted on Heroku',
+            span1: 'Youtbe',
+            span2: 'Discod.Js , Youtube API',
+            span3: 'Heroku',
             links: [
                 {
                     link: 'https://github.com/ashishmishra-bit/',
-                    icon: <GitHubIcon />
+                    
                 },
                 {
                     link: 'https://github.com/ashishmishra-bit',
-                    icon: <LanguageIcon />
+                    
+                },
+            ]
+        },
+
+
+        {
+            
+            title: 'Be Fresh Groceries',
+            imgUrl: Project2,
+            techStack1: javaScript,
+            techStack2:Wordpress,
+            techStack3:html,
+            techStack4:css,
+            techStack5:Php,
+            desc1: 'Long back, vedas could only be taught through gurus. But with the advancement in technology and the evolution of learning to e-learning, this app aims to be a source for learning vedas.',
+            desc2: 'The application has more than 5000+ Downlaods & it has recieved 4.5 ★ by the users',
+            desc3: 'The application is built using Java , Kotlin , Firebase , XML.',
+            span1: '5000+ Downlaods',
+            span2: '4.5 ★',
+            span3: 'Java , Kotlin , Firebase , XML.',
+            links: [
+                {
+                    link: 'https://github.com/ashishmishra-bit/',
+                    
+                },
+                {
+                    link: 'https://github.com/ashishmishra-bit',
+                    
                 },
             ]
         },
 
         {
-            tag: 'Websites',
-            images: Port2,
-            title: 'Kenisha Styles',
-            caption: 'A web site for the Start Up',
-            desc: 'This was the website on which i have worked on as an Intern to this company. I have embeded facebook page and pixel to this website through facebook developer API. It was a great experience with lots of mistake as it was my first work professionally.',
+            
+            title: `Simhan's e-VedaShree`,
+            imgUrl: Project3,
+            techStack1: Java,
+            techStack2:Kotlin,
+            techStack3:Firebase,
+            desc1: 'Long back, vedas could only be taught through gurus. But with the advancement in technology and the evolution of learning to e-learning, this app aims to be a source for learning vedas.',
+            desc2: 'The application has more than 5000+ Downlaods & it has recieved 4.5 ★ by the users',
+            desc3: 'The application is built using Java , Kotlin , Firebase , XML.',
+            span1: '5000+ Downlaods',
+            span2: '4.5 ★',
+            span3: 'Java , Kotlin , Firebase , XML.',
             links: [
                 {
-                    link: 'https://github.com/ashishmishra-bit',
-                    icon: <GitHubIcon />
+                    link: 'https://github.com/ashishmishra-bit/',
+                    
                 },
                 {
-                    link: 'https://www.kenishastyles.com/',
-                    icon: <LanguageIcon />
+                    link: 'https://github.com/ashishmishra-bit',
+                    
                 },
             ]
         },
+        //Project section 1 end
+
+
+        //Project section 2 start
+
         {
-            tag: 'Websites',
-            images: Port3,
-            title: 'Be-Fresh Groceries',
-            caption: 'Online Grocery Store',
-            desc: 'This is the website for online grocery store , basically and online ecommerce website. It has support for firebase authentication and use MySql databse.',
-            links: [
-                {
-                    link: 'https://github.com/ashishmishra-bit',
-                    icon: <GitHubIcon />
-                },
-                {
-                    link: 'https://www.befreshgroceries.com/',
-                    icon: <LanguageIcon />
-                },
-            ]
-        },
-        {
-            tag: 'Websites',
-            images: Port4,
-            title: 'Django Ecommerce Website',
-            caption: 'Ecommerce Website Using Django',
-            desc: 'This is an Ecommerce website using Python framework Django and it has most of the features includind payment gateway integration with PayPal.The website is still under developement. It will be completed and hosted soon.',
-            links: [
-                {
-                    link: 'https://github.com/ashishmishra-bit/Django_Ecomm',
-                    icon: <GitHubIcon />
-                },
-                {
-                    link: 'https://github.com/ashishmishra-bit',
-                    icon: <LanguageIcon />
-                },
-            ]
-        },
-        {
-            tag: 'Websites',
-            images: Port5,
-            title: 'PHP Chat Application',
-            caption: 'PHP Coded Chat Appllication',
-            desc: 'This is the PHP coded chat application that provides the unique id to every chat room created. I have used here MySql database from php my admin locally to connect and store the data entry.',
-            links: [
-                {
-                    link: 'https://github.com/ashishmishra-bit/ChatApp-PHP',
-                    icon: <GitHubIcon />
-                },
-                {
-                    link: 'https://github.com/ashishmishra-bit',
-                    icon: <LanguageIcon />
-                },
-            ]
-        },
-        {
-            tag: 'Websites',
-            images: Port6,
-            title: 'Zoom Clone',
-            caption: 'Simple Zoom-Clone Web Application',
-            desc: 'This is the clone of popular video conferencing application called "ZOOM". This is build using node.js, express.js and peer.js , most the features are added here and it works perfect.',
-            links: [
-                {
-                    link: 'https://github.com/ashishmishra-bit/zoom_clone',
-                    icon: <GitHubIcon />
-                },
-                {
-                    link: 'https://github.com/ashishmishra-bit',
-                    icon: <LanguageIcon />
-                },
-            ]
-        },
-        {
-            tag: 'Websites',
-            images: Port7,
-            title: 'Blog Template',
-            caption: 'This is Blog Template',
-            desc: 'This is Blog Template coded on Basic Html , Css , JavaScript , & Bootstrap.',
-            links: [
-                {
-                    link: 'https://github.com/ashishmishra-bit',
-                    icon: <GitHubIcon />
-                },
-                {
-                    link: 'https://github.com/ashishmishra-bit',
-                    icon: <LanguageIcon />
-                },
-            ]
-        },
-        {
-            tag: 'Websites',
-            images: Port8,
-            title: 'freelancecommunity.com',
-            caption: 'A web site for the Start Up.',
-            desc: 'The is the website for the company named freelancecommunitee.com.',
-            links: [
-                {
-                    link: 'https://github.com/ashishmishra-bit',
-                    icon: <GitHubIcon />
-                },
-                {
-                    link: 'https://github.com/ashishmishra-bit',
-                    icon: <LanguageIcon />
-                },
-            ]
-        },
-        {
-            tag: 'Websites',
-            images: Port9,
-            title: 'A2D Web',
-            caption: 'A web site for the Start Up',
-            desc: 'This is the notes application coded in php.',
-            links: [
-                {
-                    link: 'https://github.com/ashishmishra-bit',
-                    icon: <GitHubIcon />
-                },
-                {
-                    link: 'https://github.com/ashishmishra-bit',
-                    icon: <LanguageIcon />
-                },
-            ]
-        },
-        {
-            tag: 'Websites',
-            images: Port10,
-            title: 'WhatsApp Clone',
-            caption: 'A web site for the Start Up',
-            desc: 'This is the notes application coded in php.',
-            links: [
-                {
-                    link: 'https://github.com/ashishmishra-bit',
-                    icon: <GitHubIcon />
-                },
-                {
-                    link: 'https://github.com/ashishmishra-bit',
-                    icon: <LanguageIcon />
-                },
-            ]
-        },
-        {
-            tag: 'Websites',
-            images: Port13,
-            title: 'JavaScript Music Player',
-            caption: 'A web site for the Start Up',
-            desc: 'This is the notes application coded in php.',
-            links: [
-                {
-                    link: 'https://github.com/ashishmishra-bit',
-                    icon: <GitHubIcon />
-                },
-                {
-                    link: 'https://github.com/ashishmishra-bit',
-                    icon: <LanguageIcon />
-                },
-            ]
-        },
-        {
-            tag: 'Websites',
-            images: Port14,
+            
             title: 'Discord Music Bot',
-            caption: 'A web site for the Start Up',
-            desc: 'This is the notes application coded in php.',
+            imgUrl: Project1,
+            techStack1: javaScript,
+            techStack2:Nodejs,
+            techStack3:Express,
+            desc1: 'This Application allows you to stream music from YouTube while you are connected to voice channels',
+            desc2: 'The application has multiple option like  PLay/Pause Option , Queueing the song , Song can be Looped',
+            desc3: 'The application is built using a Javascript Library know as Discod.Js , Youtube API and is Hoted on Heroku',
+            span1: 'Youtbe',
+            span2: 'Discod.Js , Youtube API',
+            span3: 'Heroku',
             links: [
                 {
-                    link: 'https://github.com/ashishmishra-bit',
-                    icon: <GitHubIcon />
+                    link: 'https://github.com/ashishmishra-bit/',
+                    
                 },
                 {
                     link: 'https://github.com/ashishmishra-bit',
-                    icon: <LanguageIcon />
-                },
-            ]
-        },
-
-        {
-            tag: 'Android',
-            images: Port11,
-            title: 'Music Player APP',
-            caption: 'A short Description about project',
-            desc: 'This is the notes application coded in php.',
-            links: [
-                {
-                    link: 'https://github.com/ashishmishra-bit',
-                    icon: <GitHubIcon />
-                },
-                {
-                    link: 'https://github.com/ashishmishra-bit',
-                    icon: <LanguageIcon />
-                },
-            ]
-        },
-        {
-            tag: 'Android',
-            images: Port12,
-            title: 'Billing App',
-            caption: 'A short Description about project',
-            desc: 'This is the notes application coded in php.',
-            links: [
-                {
-                    link: 'https://github.com/ashishmishra-bit',
-                    icon: <GitHubIcon />
-                },
-                {
-                    link: 'https://github.com/ashishmishra-bit',
-                    icon: <LanguageIcon />
-                },
-            ]
-        },
-        {
-            tag: 'UI / UX',
-            images: Port15,
-            title: 'A2D UI Design',
-            caption: 'A short Description about project',
-            desc: 'This is the notes application coded in php.',
-            links: [
-                {
-                    link: 'https://github.com/ashishmishra-bit',
-                    icon: <GitHubIcon />
-                },
-                {
-                    link: 'https://github.com/ashishmishra-bit',
-                    icon: <LanguageIcon />
-                },
-            ]
-        },
-        {
-            tag: 'UI / UX',
-            images: Port16,
-            title: 'GFG-KIIT UI Design',
-            caption: 'A short Description about project',
-            desc: 'This is the notes application coded in php.',
-            links: [
-                {
-                    link: 'https://github.com/ashishmishra-bit',
-                    icon: <GitHubIcon />
-                },
-                {
-                    link: 'https://github.com/ashishmishra-bit',
-                    icon: <LanguageIcon />
-                },
-            ]
-        },
-        {
-            tag: 'UI / UX',
-            images: Port17,
-            title: 'MusicPlayer UI',
-            caption: 'A short Description about project',
-            desc: 'This is the notes application coded in php.',
-            links: [
-                {
-                    link: 'https://github.com/ashishmishra-bit',
-                    icon: <GitHubIcon />
-                },
-                {
-                    link: 'https://github.com/ashishmishra-bit',
-                    icon: <LanguageIcon />
+                    
                 },
             ]
         },
 
 
         {
-            tag: 'UI / UX',
-            images: Port18,
-            title: 'Photoshop Editing',
-            caption: 'A short Description about project',
-            desc: 'This is the notes application coded in php.',
+            
+            title: 'Be Fresh Groceries',
+            imgUrl: Project2,
+            techStack1: javaScript,
+            techStack2:Wordpress,
+            techStack3:html,
+            techStack4:css,
+            techStack5:Php,
+            desc1: 'Long back, vedas could only be taught through gurus. But with the advancement in technology and the evolution of learning to e-learning, this app aims to be a source for learning vedas.',
+            desc2: 'The application has more than 5000+ Downlaods & it has recieved 4.5 ★ by the users',
+            desc3: 'The application is built using Java , Kotlin , Firebase , XML.',
+            span1: '5000+ Downlaods',
+            span2: '4.5 ★',
+            span3: 'Java , Kotlin , Firebase , XML.',
             links: [
                 {
-                    link: 'https://github.com/ashishmishra-bit',
-                    icon: <GitHubIcon />
+                    link: 'https://github.com/ashishmishra-bit/',
+                    
                 },
                 {
                     link: 'https://github.com/ashishmishra-bit',
-                    icon: <LanguageIcon />
+                    
                 },
-
             ]
-        }
+        },
+
+        {
+            
+            title: `Simhan's e-VedaShree`,
+            imgUrl: Project3,
+            techStack1: Java,
+            techStack2:Kotlin,
+            techStack3:Firebase,
+            desc1: 'Long back, vedas could only be taught through gurus. But with the advancement in technology and the evolution of learning to e-learning, this app aims to be a source for learning vedas.',
+            desc2: 'The application has more than 5000+ Downlaods & it has recieved 4.5 ★ by the users',
+            desc3: 'The application is built using Java , Kotlin , Firebase , XML.',
+            span1: '5000+ Downlaods',
+            span2: '4.5 ★',
+            span3: 'Java , Kotlin , Firebase , XML.',
+            links: [
+                {
+                    link: 'https://github.com/ashishmishra-bit/',
+                    
+                },
+                {
+                    link: 'https://github.com/ashishmishra-bit',
+                    
+                },
+            ]
+        },
+
+        //Project section 2 end
+
+
+        //Achievements section start
+
+        //Certifications section start
+        
+
+        
     ],
 };

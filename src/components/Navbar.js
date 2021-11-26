@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+
 import '../css/Navbar.css';
 import logo from '../images/logo.png';
 
@@ -56,14 +56,14 @@ class Navbar extends Component {
       return (
          <nav className="bar" id="navbar-main">
             <div className="content">
-                <div className="logo"><Link to="/"><img src={logo} alt="logo" className="gfg-logo" /></Link></div>
+                <div className="logo"><a href="/"><img src={logo} alt="logo" className="gfg-logo" /></a></div>
 
                 <ul className="menu-list">
-                  <li><Link to="/" className="nav_home">Home</Link></li>
-                  <li><Link to="/journey" className="nav_event">Journey</Link></li>
-                  <li><Link to="/projects" className="nav_projects">Projects </Link></li>
-                  <li><Link to="/blogs" className="nav_about">Blogs </Link></li>
-                  <li><Link to="/achivements" className="nav_about">Achivements </Link></li>
+                  <li><a href="/" className="nav_home">Home</a></li>
+                  <li><a href="/journey" className="nav_event">Journey</a></li>
+                  <li><a href="/projects" className="nav_projects">Projects </a></li>
+                  <li><a href="/blogs" className="nav_about">Blogs </a></li>
+                  <li><a href="/achivements" className="nav_about">Achivements </a></li>
                 </ul>
 
                 <div className="burger-menu" id="burger-menu">

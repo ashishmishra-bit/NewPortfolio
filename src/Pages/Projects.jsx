@@ -27,6 +27,7 @@ import Php from "../icons/php.png"
 import Kotlin from "../icons/kotlin.png"
 import Firebase from "../icons/firebase.png"
 import Java from "../icons/java.gif"
+import ProjectModal from '../components/ProjectModal'
 
 export default function Projects() {
 
@@ -109,6 +110,8 @@ export default function Projects() {
                             </div>
                         </div>
                         {/* Card One Popup - this popup is only mobile responsive */}
+                      
+                        
                         <div className="bg-modal1">
                             <div className="Project-about flex flex-col md:flex-row justify-center">
                                 <div className="md:w-1/2 md:pr-10">
@@ -141,6 +144,26 @@ export default function Projects() {
                                 </div>
                             </div>
                         </div>
+                        
+                        
+                       
+
+                        {/*
+                        
+                        <ProjectModal 
+                            className="bg-modal1"
+                            displayNone = {displayNone1}
+                            imgUrl={Project1}
+                            techStackImgUrl={[javaScript,Nodejs,Express]}
+                            desc1 = "This Application allows you to stream music from YouTube while you are connected to voice channels"
+                            desc2 = "The application has multiple option like - `<ul>&#9900; PLay/Pause Option</ul>` `<ul>&#9900; Queueing the song</ul>` `<ul>&#9900; Song can be Looped</ul>`"
+                            desc3= "The application is built using a Javascript Library know as Discod.Js , Youtube API  and is Hoted on Heroku"
+                            demoLink = "https://github.com/ashishmishra-bit/music-bot"
+                            codeLink = "https://github.com/ashishmishra-bit/music-bot"
+                        
+                        />
+                        
+                        */}
 
                         {/* Card Two Start */}
                         <div className="projectCard flex flex-row items-end mt-4" onClick={displayFlex2} style={{backgroundImage:`url(${Project2})`}}>
