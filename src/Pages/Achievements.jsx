@@ -19,12 +19,14 @@ import Dp from '../icons/DP.png'
 import Ds from '../icons/DS.png'
 import Algo from '../icons/algo.png'
 import Algo2 from '../icons/algo2.png'
+import Navbar from '../components/Navbar'
 
 export default function Achievements() {
     return (
         <div>
             <Sidebar />
             <div className="home-section pb-20">
+                <Navbar />
                 {/* HEADING SECTION */}
                 <div className="achivements-header flex flex-col-reverse md:flex-row px-5 md:px-0">
                     <div className="achivements-Heading-text md:w-1/2 flex md:ml-20 items-center">“ Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away ! ! ! ”</div>
