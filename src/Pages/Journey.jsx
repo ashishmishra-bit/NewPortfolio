@@ -86,7 +86,7 @@ export default function Journey() {
               y="50%"
               style={{ fill: "url(#pattern)" }}
             >
-              Ashish Mishra
+            &#64;Ashish Mishra 
             </text>        
             
       </motion.svg>
