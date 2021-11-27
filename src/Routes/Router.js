@@ -8,9 +8,15 @@ import Landing from '../Pages/Landing'
 import Projects from '../Pages/Projects';
 import SeePost from '../Pages/SeePost';
 import Achievements from '../Pages/Achievements';
+
+
+
+
+
 const Routes = () => {
     return (
         <>
+           
             <Switch>
                 <Route exact path="/" component={Landing} />
                 <Route exact path="/journey" component={Journey} />
