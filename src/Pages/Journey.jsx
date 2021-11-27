@@ -17,6 +17,8 @@ import '../css/Journey.css'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import { motion } from 'framer-motion'
+import JourneyVideo from '../icons/journey2.mp4';
+
 
 const box = {
     initial: {
@@ -92,19 +94,26 @@ export default function Journey() {
       </motion.svg>
       </motion.div>
             <Sidebar />
+            
             <div className="home-section">
                 <Navbar />
                 {/* HEADING SECTION */}
+                
                 <div className="Journey-header flex flex-col justify-end md:justify-center items-center">
-                    <div className="Landing-Heading text-center mb-10">JOURNEY</div>
-                    <p className="journey-header-text">My Brain Has Too Many Tabs open 😉 😉 😉
+                    <div className="Landing-Heading text-center mb-10 z-10">JOURNEY</div>
+                    <p className="journey-header-text z-10">My Brain Has Too Many Tabs open 😉 😉 😉
                     </p>
 
                     {/* 
                     <div className="text-8xl text-white ">Odyssey of being</div>
                     <div className="text-4xl text-white mt-8">Abecedarian TO Crackerjack</div>
                     */}
+                    <video autoPlay loop className="video-background" muted >
+                    <source src={JourneyVideo} type="video/mp4" />
+                    
+                    </video>
                 </div>
+               
 
                 <div className="Landing-Journey md:px-24 py-10">
 
