@@ -34,6 +34,7 @@ import HackerRankLogo from '../images/HackerRankLogo.png'
 import Coursera from '../images/coursera.png'
 import Eudonix from '../images/eudonix.png'
 import Udemy from '../images/udemy.png'
+import java from '../icons/java.png'
 
 
 export default {
@@ -110,7 +111,7 @@ export default {
         {
             title: `Simhan's e-VedaShree`,
             imgUrl: Project3,
-            techStack1: Java,
+            techStack1: java,
             techStack2: Kotlin,
             techStack3: Firebase
         }

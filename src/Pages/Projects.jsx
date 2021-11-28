@@ -34,6 +34,8 @@ import ProjectModal from '../components/ProjectModal'
 import { motion } from 'framer-motion'
 import Next2 from "../icons/Next2.png"
 import Tailwind from "../icons/tailwindcss.svg"
+import java from '../icons/java.png'
+import Project5 from '../icons/Project5.png'
 
 const box = {
     initial: {
@@ -291,7 +293,7 @@ export default function Projects() {
                         <div className="projectCard-long flex flex-row items-end ml-5 md:ml-4" onClick={displayFlex3} style={{backgroundImage:`url(${project3})`}}>
                             <div className="w-1/2 lg text-white">Simhan's e-VedaShree</div>
                             <div className="w-1/2 flex flex-row justify-end mb-4">
-                                <img src={Java} alt="javaScript" className="mr-3"  />
+                                <img src={java } alt="javaScript" className="mr-3"  />
                                 <img src={Firebase} alt="html" className="mr-3"  />
                                 <img src={Kotlin} alt="css"/>
                             </div>
@@ -307,7 +309,7 @@ export default function Projects() {
                                 <div className="h-1/2">
                                     <div className="TechStack-SubHeading mt-10">TECH STACK</div>
                                     <div className="flex flex-row mt-5 justify-center ">
-                                    <img src={Java} alt="javaScript" className="mr-3" style={{width:"70px",height:"70px"}} />
+                                    <img src={java } alt="javaScript" className="mr-3" style={{width:"70px",height:"70px"}} />
                                     <img src={Firebase} alt="html" className="mr-3" style={{width:"70px",height:"70px"}} />
                                     <img src={Kotlin} alt="css" style={{width:"70px",height:"70px"}} />
                                     </div>
@@ -377,7 +379,7 @@ export default function Projects() {
                         </div>
 
                         {/* Card five Start */}
-                        <div className="projectCard flex flex-row items-end mt-4 ml-4" onClick={displayFlex5} style={{backgroundImage:`url(${Project2})`}}>
+                        <div className="projectCard flex flex-row items-end mt-4 ml-4" onClick={displayFlex5} style={{backgroundImage:`url(${Project5})`}}>
                             <div className="w-1/2 lg text-white">Be Fresh Groceries </div>
                             <div className="w-1/2 flex flex-row justify-end mb-4">
                                 <img src={javaScript} alt="javaScript" className="mr-3" style={{width:"30px",height:"30px"}} />
@@ -393,7 +395,7 @@ export default function Projects() {
                         <div className="Project-about flex flex-row justify-center">
                             <div className="w-1/2 pr-10">
                                 <div className="h-1/2">
-                                    <img src={Project2} alt="{ProjectBackgroundTwo}" style={{height:"100%",width:"100%",borderBottomRightRadius:"120px"}} />
+                                    <img src={Project5} alt="{ProjectBackgroundTwo}" style={{height:"100%",width:"100%",borderBottomRightRadius:"120px"}} />
                                 </div>
                                 <div className="h-1/2">
                                     <div className="TechStack-SubHeading mt-10">TECH typ</div>
@@ -426,7 +428,7 @@ export default function Projects() {
                         <div className="projectCard-long flex flex-row items-end ml-5 md:ml-4" onClick={displayFlex6} style={{backgroundImage:`url(${project3})`}}>
                             <div className="w-1/2 lg text-white">Simhan's e-VedaShree</div>
                             <div className="w-1/2 flex flex-row justify-end mb-4">
-                                <img src={Java} alt="javaScript" className="mr-3"  />
+                                <img src={java } alt="javaScript" className="mr-3"  />
                                 <img src={Firebase} alt="html" className="mr-3"  />
                                 <img src={Kotlin} alt="css"/>
                             </div>
@@ -442,7 +444,7 @@ export default function Projects() {
                                 <div className="h-1/2">
                                     <div className="TechStack-SubHeading mt-10">TECH STACK</div>
                                     <div className="flex flex-row mt-5 justify-center ">
-                                    <img src={Java} alt="javaScript" className="mr-3" style={{width:"70px",height:"70px"}} />
+                                    <img src={java } alt="javaScript" className="mr-3" style={{width:"70px",height:"70px"}} />
                                     <img src={Firebase} alt="html" className="mr-3" style={{width:"70px",height:"70px"}} />
                                     <img src={Kotlin} alt="css" style={{width:"70px",height:"70px"}} />
                                     </div>
