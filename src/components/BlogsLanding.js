@@ -4,6 +4,7 @@ import '../css/Blogs.css'
 import BlogImage1 from '../images/BlogImage2.png'
 import BlogImage3 from '../images/datascience.jpg'
 import BlogImage2 from '../images/mongodb.png'
+import resumeDetails from '../JsonData/resumeDetails'
 
 
 export default function BlogsLanding() {

@@ -8,6 +8,7 @@ import Profile from '../images/avatar3.png'
 import JourneyLanding from '../components/JourneyLanding'
 import TechAndTools from '../components/TechAndTools'
 // import useEffect from 'react';
+import resumeDetails from '../JsonData/resumeDetails'
 
 
 // Animation Imports
@@ -115,12 +116,12 @@ const Landing = () => {
                             <p>~Hello World~</p>
                         </Fade>
                         <Fade up duration = {3000} delay = {500}>
-                            <p>I am Ashish Kumar Mishra</p>
+                            <p>{resumeDetails.name}</p>
                         </Fade>
                         <Zoom duration = {5000} delay = {300}>
                         <Typewriter
                         onInit={(typewriter) => {
-                            typewriter.typeString('Frontend | Android | Data Science | UI/UX')
+                            typewriter.typeString(`${resumeDetails.title}`)
                                 .callFunction(() => {
                                     console.log('String typed out!');
                                 })
@@ -139,7 +140,7 @@ const Landing = () => {
                     <div className="flex flex-col-reverse md:flex-row ">
                         <div className="md:w-3/4 text-lg md:text-2x md:pr-28 text-justify" style={{ color: "#B5B4B4" }} data-aos="slide-right" data-aos-duration="9000">
                         {/* <div className="md:w-3/4 text-lg md:text-2xl md:pr-28 text-justify" style={{ color: "#B5B4B4" }}> */}
-                            Hello Folks, I am Ashish Kumar Mishra. I am a hardworking, self-motivated, and well-organized person, sincerely dedicated to my allocated job. I am an IT undergraduate scholar with a penchant for exploring various innovations that are emerging in the technical field. Web Development fascinates me the most. I have acquired skills in Android development and SEO and currently, I have lessons in Data Science and working on research papers. I have obtained certification in UI/UX and terminated with designing websites and projects. I am brushing up my skills to attain more perfection and intend to generate newness in the field of Information and Technology.
+                            {resumeDetails.about}
                         </div>
                         <div className="text profileImage md:w-4/12 md:-mt-7" data-aos="slide-left" data-aos-duration="9000">
                         {/* <div className="text profileImage md:w-4/12 "> */}

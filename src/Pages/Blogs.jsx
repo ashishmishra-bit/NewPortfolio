@@ -59,8 +59,8 @@ export default function Blogs() {
             <pattern
               id="pattern"
               patternUnits="userSpaceOnUse"
-              width={750}
-              height={800}
+              width={900}
+              height={1000}
               className="text-white"
             >
               <rect className="w-full h-full fill-current" />
@@ -73,7 +73,7 @@ export default function Blogs() {
               y="50%"
               style={{ fill: "url(#pattern)" }}
             >
-            &#64;Ashish Mishra 
+            &#64;Ashish_Blogs
             </text>        
             
       </motion.svg>
