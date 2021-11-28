@@ -32,6 +32,9 @@ import Figma from "../icons/figma.png"
 import Next from "../icons/next.png"
 import ProjectModal from '../components/ProjectModal'
 import { motion } from 'framer-motion'
+import Particles from 'particles-bg'
+import Navbar from '../components/Navbar'
+
 import Next2 from "../icons/Next2.png"
 import Tailwind from "../icons/tailwindcss.svg"
 import java from '../icons/java.png'
@@ -163,6 +166,9 @@ export default function Projects() {
       </motion.div>
             <Sidebar />
             <div className="home-section pb-20">
+                <Navbar />
+                <Particles color="#48CAE4" num={200} type="cobweb" bg={true} />
+
                 {/* HEADING SECTION */}
                 <div className="projects-header flex flex-col-reverse md:flex-row">
                 

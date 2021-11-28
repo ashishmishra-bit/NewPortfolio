@@ -23,6 +23,8 @@ import Navbar from '../components/Navbar'
 import Certificates from '../components/Certificates'
 import { motion } from 'framer-motion'
 import resumeDetails from '../JsonData/resumeDetails'
+import Particles from 'particles-bg'
+
 const box = {
     initial: {
         height: "100vh",
@@ -98,6 +100,8 @@ export default function Achievements() {
             <Sidebar />
             <div className="home-section pb-20">
                 <Navbar />
+                <Particles color="#48CAE4" num={300} type="cobweb" bg={true} />
+
                 {/* HEADING SECTION */}
                 <div className="achivements-header flex flex-col-reverse md:flex-row px-5 md:px-0">
                     <div className="achivements-Heading-text md:w-1/2 flex md:ml-20 items-center">“ Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away ! ! ! ”</div>

@@ -1,14 +1,13 @@
-.projectCard{
+.projectCard,
+.projectCard-long{
     height: 267px;
     width: 500px;
-    border-radius: 20px;
-    background-color: linear-gradient(357.78deg, rgba(0, 0, 0, 0.92) 17.76%, rgba(0, 0, 0, 0) 48.07%);
-    background-image: url(../images/ProjectBackgroundOne.png);
+    border-radius: 20px ; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: linear-gradient(357.78deg, rgba(0, 0, 0, 0.92) 17.76%, rgba(0, 0, 0, 0) 48.07%);
     padding: 15px;
-    
     font-size: 36px;
     font-weight: 600;
     line-height: 50px;
@@ -17,17 +16,6 @@
 .projectCard-long{
     width: 500px;
     height: 550px;
-    border-radius: 20px;
-    background-color: linear-gradient(357.78deg, rgba(0, 0, 0, 0.92) 17.76%, rgba(0, 0, 0, 0) 48.07%);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 15px;
-    
-    font-size: 36px;
-    font-weight: 600;
-    line-height: 50px;
-    text-align: left;
 }
 .projectCard img,
 .projectCard-long img{

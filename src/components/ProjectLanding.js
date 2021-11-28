@@ -29,13 +29,13 @@ export default function ProjectLanding() {
                     {resumeDetails.projectHome.map((project) => {
                         return (
                             <>
-                                <div className="projectCard flex flex-row items-end mt-5" style={{ backgroundImage: `url(${project.imgUrl})` }}>
+                                <div className="projectCard flex flex-row items-end mt-5" style={{backgroundImage: `linear-gradient(357.78deg, rgba(0, 0, 0, 0.92) 17.76%, rgba(0, 0, 0, 0) 48.07%),url(${project.imgUrl})`}} >
 
                                     <div className="w-1/2 text-white">{project.title} </div>
                                     <div className="w-1/2 flex flex-row justify-end mb-4">
                                         <img src={project.techStack1} alt="javaScript" className="mr-3" />
                                         <img src={project.techStack2} alt="html" className="mr-3" />
-                                        <img src={project.techStack3} alt="css" />
+                                        <img src={project.techStack3} alt="css" className="mr-3" />
                                         {(project.techStack4) || (project.techStack5) ? (
                                             <>
                                                 <img src={project.techStack4} alt="html" className="mr-3" />
@@ -53,12 +53,12 @@ export default function ProjectLanding() {
                     {resumeDetails.longProjectCardHome.map((project) => {
                         return (
                             <>
-                                <div className="projectCard-long flex flex-row items-end ml-4" style={{ backgroundImage: `url(${project.imgUrl})` }}>
-                                    <div className="w-1/2 lg text-black-800">{project.title}</div>
+                                <div className="projectCard-long flex flex-row items-end ml-4" style={{backgroundImage: `linear-gradient(357.78deg, rgba(0, 0, 0, 0.92) 17.76%, rgba(0, 0, 0, 0) 48.07%),url(${project.imgUrl})`}}>
+                                    <div className="w-1/2 lg text-white">{project.title}</div>
                                     <div className="w-1/2 flex flex-row justify-end mb-4">
-                                        <img src={project.techStack1} alt="javaScript" className="mr-3" />
-                                        <img src={project.techStack2} alt="html" className="mr-3" />
-                                        <img src={project.techStack3} alt="css" />
+                                        <img src={project.techStack1} alt="javaScript" className="mr-3"  />
+                                        <img src={project.techStack2} alt="html" className="mr-3" style={{width:"40px"}} />
+                                        <img src={project.techStack3} alt="css"  />
                                     </div>
                                 </div>
                             </>
