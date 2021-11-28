@@ -6,6 +6,10 @@ import Footer from '../components/Footer'
 import Sidebar from '../components/Sidebar'
 import '../css/Blogs.css'
 import { motion } from 'framer-motion'
+import Particles from 'particles-bg'
+import Navbar from '../components/Navbar'
+
+
 
 const box = {
   initial: {
@@ -80,6 +84,8 @@ export default function Blogs() {
       </motion.div>
       <Sidebar />
       <div className="home-section pb-20">
+        <Navbar />
+        <Particles color="#48CAE4" num={300} type="cobweb" bg={true} />
         {/* HEADING SECTION */}
         <div className="blogs-header flex flex-row">
 

@@ -19,6 +19,8 @@ import Navbar from '../components/Navbar'
 import { motion } from 'framer-motion'
 import JourneyVideo from '../icons/journey2.mp4';
 import resumeDetails from '../JsonData/resumeDetails'
+import Particles from 'particles-bg'
+
 
 
 const box = {
@@ -98,6 +100,7 @@ export default function Journey() {
 
             <div className="home-section">
                 <Navbar />
+                <Particles color="#48CAE4" num={200} type="cobweb" bg={true} />
                 {/* HEADING SECTION */}
 
                 <div className="Journey-header flex flex-col justify-end md:justify-center items-center">
