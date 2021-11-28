@@ -1,16 +1,19 @@
 *{
     font-family: 'Montserrat', sans-serif;
 }
+body{
+    background-color: #111318; 
+}
 
 ::-webkit-scrollbar{
     width: 0px;
 }
 .home-section{
     position: relative;
-    background-color: #111318;
+    /* background-color: #111318; */
     height: 100%;
     left: 78px;
-    z-index: -3;
+    /* z-index: -3; */
     width: calc(100% - 78px);
     transition: all 0.5s ease;
     overflow-x: hidden;

@@ -6,11 +6,13 @@ import javaScript from "../icons/javaScript.svg"
 import cross from "../icons/cross.svg"
 import html from "../icons/html.svg"
 import css from "../icons/css.svg"
+import react from '../icons/react.png'
 // import { Link } from 'react-router-dom'
 import Footer from '../components/Footer'
 import Sidebar from '../components/Sidebar'
 import lottie from 'lottie-web';
 // import  Project from '../LottieAssets/project.json';
+import Project6 from '../images/gfgproject.png'
 
 
 import Project1 from '../images/discord.png'
@@ -167,7 +169,7 @@ export default function Projects() {
             <Sidebar />
             <div className="home-section pb-20">
                 <Navbar />
-                <Particles color="#48CAE4" num={200} type="cobweb" bg={true} />
+                <Particles color="#48CAE4"  num={200} type="cobweb" bg={true} />
 
                 {/* HEADING SECTION */}
                 <div className="projects-header flex flex-col-reverse md:flex-row">
@@ -185,7 +187,7 @@ export default function Projects() {
                     <div className="md:w-1/2 flex flex-col items-center md:items-end">
 
                         {/* Card One Start */}
-                        <div className="projectCard flex flex-row items-end" onClick={displayFlex1} style={{backgroundImage:`url(${Project1})`}}>
+                        <div className="projectCard flex flex-row items-end" onClick={displayFlex1}  style={{backgroundImage: `linear-gradient(357.78deg, rgba(0, 0, 0, 0.92) 17.76%, rgba(0, 0, 0, 0) 48.07%),url(${Project1})`}}>
                             <div className="w-1/2 lg text-white">Geek Music Bot </div>
                             <div className="w-1/2 flex flex-row justify-end mb-4">
                                 <img src={javaScript} alt="javaScript" className="mr-3" style={{width:"30px",height:"30px"}} />
@@ -250,7 +252,7 @@ export default function Projects() {
                         */}
 
                         {/* Card Two Start */}
-                        <div className="projectCard flex flex-row items-end mt-4" onClick={displayFlex2} style={{backgroundImage:`url(${Project2})`}}>
+                        <div className="projectCard flex flex-row items-end mt-4" onClick={displayFlex2} style={{backgroundImage: `linear-gradient(357.78deg, rgba(0, 0, 0, 0.92) 17.76%, rgba(0, 0, 0, 0) 48.07%),url(${Project2})`}}>
                             <div className="w-1/2 lg text-white">Be Fresh Groceries </div>
                             <div className="w-1/2 flex flex-row justify-end mb-4">
                                 <img src={javaScript} alt="javaScript" className="mr-3" style={{width:"30px",height:"30px"}} />
@@ -296,12 +298,12 @@ export default function Projects() {
 
                     {/* Card Three */}
                     <div className="mt-4 md:mt-0 md:w-1/2">
-                        <div className="projectCard-long flex flex-row items-end ml-5 md:ml-4" onClick={displayFlex3} style={{backgroundImage:`url(${project3})`}}>
+                        <div className="projectCard-long flex flex-row items-end ml-5 md:ml-4" onClick={displayFlex3} style={{backgroundImage: `linear-gradient(357.78deg, rgba(0, 0, 0, 0.92) 17.76%, rgba(0, 0, 0, 0) 48.07%),url(${project3})`}}>
                             <div className="w-1/2 lg text-white">Simhan's e-VedaShree</div>
                             <div className="w-1/2 flex flex-row justify-end mb-4">
-                                <img src={java } alt="javaScript" className="mr-3"  />
-                                <img src={Firebase} alt="html" className="mr-3"  />
-                                <img src={Kotlin} alt="css"/>
+                                <img src={java } alt="javaScript" className="mr-3" style={{width:"60px",height:"60px"}}  />
+                                <img src={Firebase} alt="html" className="mr-3" style={{width:"60px",height:"60px"}}  />
+                                <img src={Kotlin} alt="css" style={{width:"60px",height:"60px"}}/>
                             </div>
                         </div>
                     </div>
@@ -343,12 +345,12 @@ export default function Projects() {
                     <div className="md:w-1/2 flex flex-col">
 
                         {/* Card Four Start */}
-                        <div className="projectCard flex flex-row items-end ml-4" onClick={displayFlex4} style={{backgroundImage:`url(${Project4})`}}>
-                            <div className="w-1/2 lg text-white">Geek Music Bot </div>
+                        <div className="projectCard flex flex-row items-end ml-4" onClick={displayFlex4} style={{backgroundImage: `linear-gradient(357.78deg, rgba(0, 0, 0, 0.92) 17.76%, rgba(0, 0, 0, 0) 48.07%),url(${Project4})`}}>
+                            <div className="w-1/2 lg text-white">Aecor </div>
                             <div className="w-1/2 flex flex-row justify-end mb-4">
                                 <img src={javaScript} alt="javaScript" className="mr-3" style={{width:"40px",height:"40px"}} />
                                 <img src={Tailwind} alt="html" className="mr-3 " style={{width:"40px",height:"40px"}} />
-                                <img src={Figma} alt="css" style={{width:"40px",height:"50px"}} />
+                                <img src={Figma} alt="css" className="mr-3 " style={{width:"40px",height:"50px"}} />
                                 <img src={Next2} className="mr-3 " alt="css" style={{width:"90px",height:"50px"}} />
                             </div>
                         </div>
@@ -364,7 +366,7 @@ export default function Projects() {
                                         <div className="flex flex-row mt-5 justify-center ">
                                         <img src={javaScript} alt="javaScript" className="mr-3" style={{width:"50px",height:"50px"}} />
                                 <img src={Tailwind} alt="html" className="mr-3 " style={{width:"50px",height:"50px"}} />
-                                <img src={Figma} className="mr-3 " alt="css" style={{width:"60px",height:"50px"}} />
+                                <img src={Figma} className="mr-3 " alt="css" style={{width:"80px",height:"50px"}} />
                                 <img src={Next2} className="mr-3 " alt="css" style={{width:"90px",height:"50px"}} />
                                         </div>
                                     </div>
@@ -385,8 +387,8 @@ export default function Projects() {
                         </div>
 
                         {/* Card five Start */}
-                        <div className="projectCard flex flex-row items-end mt-4 ml-4" onClick={displayFlex5} style={{backgroundImage:`url(${Project5})`}}>
-                            <div className="w-1/2 lg text-white">Be Fresh Groceries </div>
+                        <div className="projectCard flex flex-row items-end mt-4 ml-4" onClick={displayFlex5} style={{backgroundImage: `linear-gradient(357.78deg, rgba(0, 0, 0, 0.92) 17.76%, rgba(0, 0, 0, 0) 48.07%),url(${Project5})`}}>
+                            <div className="w-1/2 lg text-white">SentiMent Analysis </div>
                             <div className="w-1/2 flex flex-row justify-end mb-4">
                                 <img src={javaScript} alt="javaScript" className="mr-3" style={{width:"30px",height:"30px"}} />
                                 <img src={Wordpress} alt="html" className="mr-3" style={{width:"30px",height:"30px"}} />
@@ -431,12 +433,12 @@ export default function Projects() {
 
                     {/* Card six */}
                     <div className="mt-4 md:mt-0 md:w-1/2 flex md:justify-end">
-                        <div className="projectCard-long flex flex-row items-end ml-5 md:ml-4" onClick={displayFlex6} style={{backgroundImage:`url(${project3})`}}>
-                            <div className="w-1/2 lg text-white">Simhan's e-VedaShree</div>
+                        <div className="projectCard-long flex flex-row items-end ml-5 md:ml-4" onClick={displayFlex6} style={{backgroundImage: `linear-gradient(357.78deg, rgba(0, 0, 0, 0.92) 17.76%, rgba(0, 0, 0, 0) 48.07%),url(${Project6})`}}>
+                            <div className="w-1/2 lg text-white">GFG KIIT</div>
                             <div className="w-1/2 flex flex-row justify-end mb-4">
-                                <img src={java } alt="javaScript" className="mr-3"  />
-                                <img src={Firebase} alt="html" className="mr-3"  />
-                                <img src={Kotlin} alt="css"/>
+                                <img src={react } alt="javaScript" className="mr-3" style={{width:"60px",height:"60px"}} />
+                                <img src={javaScript} alt="html" className="mr-3" style={{width:"50px",height:"50px"}} />
+                                <img src={css} alt="css" style={{width:"50px",height:"50px"}}/>
                             </div>
                         </div>
                     </div>
@@ -445,14 +447,14 @@ export default function Projects() {
                         <div className="Project-about flex flex-row justify-center">
                             <div className="w-1/2 pr-10">
                                 <div className="h-1/2">
-                                    <img src={project3} alt="{ProjectBackgroundTwo}" style={{height:"100%",width:"100%",borderBottomRightRadius:"120px"}} />
+                                    <img src={Project6} alt="{ProjectBackgroundTwo}" style={{height:"100%",width:"100%",borderBottomRightRadius:"120px"}} />
                                 </div>
                                 <div className="h-1/2">
                                     <div className="TechStack-SubHeading mt-10">TECH STACK</div>
                                     <div className="flex flex-row mt-5 justify-center ">
-                                    <img src={java } alt="javaScript" className="mr-3" style={{width:"70px",height:"70px"}} />
-                                    <img src={Firebase} alt="html" className="mr-3" style={{width:"70px",height:"70px"}} />
-                                    <img src={Kotlin} alt="css" style={{width:"70px",height:"70px"}} />
+                                    <img src={react } alt="javaScript" className="mr-3" style={{width:"60px",height:"60px"}} />
+                                    <img src={javaScript} alt="html" className="mr-3" style={{width:"50px",height:"50px"}} />
+                                    <img src={css} alt="css" style={{width:"50px",height:"50px"}}/>
                                     </div>
                                 </div>
                             </div>

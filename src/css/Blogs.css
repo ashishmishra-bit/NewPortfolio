@@ -16,7 +16,18 @@
     font-weight: 700;
     line-height: 170px;
     letter-spacing: 0.25em;
-    color: #F8F8F869;
+    /* color: #F8F8F869; */
+    -webkit-text-stroke: #F8F8F869 3px;
+    color: transparent;
+    background:url(../images/back2.png);
+    -webkit-background-clip: text;
+    background-position: 0 0;
+    animation: back 20s linear infinite;
+}
+@keyframes back{
+    100%{
+        background-position: 2000px 0;
+    }
 }
 
 @media screen and (max-width: 600px){

@@ -12,6 +12,7 @@
     font-weight: 600;
     line-height: 50px;
     text-align: left;
+    
 }
 .projectCard-long{
     width: 500px;
@@ -57,6 +58,7 @@
     background: #171B1E;
     border-radius: 10px;
     animation: slog 0.5s 1 ease;
+    
 }
 @keyframes slog {
     0% {
