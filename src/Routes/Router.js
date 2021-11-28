@@ -7,6 +7,7 @@ import Journey from '../Pages/Journey';
 import Landing from '../Pages/Landing'
 import Projects from '../Pages/Projects';
 import SeePost from '../Pages/SeePost';
+import SeePost2 from '../Pages/SeePost2'
 import Achievements from '../Pages/Achievements';
 
 
@@ -23,7 +24,8 @@ const Routes = () => {
                 <Route exact path="/achievements" component={Achievements} />
                 <Route exact path="/projects" component={Projects} />
                 <Route exact path="/blogs" component={Blogs} />
-                <Route exact path="/seeblogs" component={SeePost} />
+                <Route exact path="/blogs/how-to-store-sessions-in-mongo-db-using-express.Js" component={SeePost} />
+                <Route exact path="/blogs/transfer-learning-with-tensorflow" component={SeePost2} />
             </Switch>
         </>
     );

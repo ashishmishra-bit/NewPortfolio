@@ -88,54 +88,58 @@ export default function Blogs() {
                 </div>
 
                 <div className="flex flex-col md:flex-row px-5 md:px-36">
-                    <div className="md:w-1/2">
-                        <img src={BlogImage} alt="BlogImage" style={{width:"550px"}} />
+                    <div className="md:w-1/2 ">
+                        <img src={"https://webimages.mongodb.com/_com_assets/cms/kuzt9r42or1fxvlq2-Meta_Generic.png"} alt="BlogImage" style={{width:"550px"}, {borderRadius:"31px"}} />
                     </div>
-                    <div className="md:w-1/2 flex flex-col justify-between" style={{color:"#9A9A9A"}}>
-                        <div className="text-lg">Date - 21st Nov , 2021</div>
-                        <div className="text-2xl font-semibold my-2">How To Store Sessions in MongoDB Using Express.Js</div>
+                    <div className="md:w-1/2 flex flex-col justify-between ml-10" style={{color:"#9A9A9A"}}>
+                        <div className="text-lg">Date - 21st jan , 2021</div>
+                        <a href = "/blogs/how-to-store-sessions-in-mongo-db-using-express.Js"><div className="text-2xl font-semibold my-2">How To Store Sessions in MongoDB Using Express.Js</div></a>
                         <div className="text-lg my-2 text-justify">MongoDB is one of the very popular database used by many developers for different things. First step is to install mongoose package using npm (node package manager ) to access the MongoDB database –</div>
-                        <Link to="/seeblogs" className="text-lg" style={{color:"#5AE86B"}}>Read More &#x21e8;</Link>
+                        
+                        <Link to="/blogs/how-to-store-sessions-in-mongo-db-using-express.Js" className="text-lg" style={{color:"#5AE86B"}}>Read More &#x21e8;</Link>
                     </div>
+                    
                 </div>
 
                 <div className="px-5 md:px-36 flex flex-col md:flex-row my-16 md:my-28">
 
-                    <div className="flex flex-col">
+                <div className="flex flex-col p-8 mx-10 rounded-xl" style={{backgroundColor:'#171B1E'}}>
+                <div>
+                    <img src={"https://blog.keras.io/img/keras-tensorflow-logo.jpg"} alt="BlogImage2" style={{width:"850px"}} />
+                </div>
+                <div className="flex flex-col justify-between " style={{color:"#9A9A9A"}}>
+                    <div className="text-lg mt-5">Date - 21st Nov , 2021</div>
+                    <div className="text-2xl font-semibold my-2">Transfer learning with TensorFlow</div>
+                    <div className="text-lg my-2 text-justify md:mr-20">The most pervasive problems in machine learning are related to data: it can be either insufficient, or low-quality. One obvious solution to this set of problems is to acquire more and better data. However, these two often do not go together. We have to sacrifice quality for quantity or vice versa.</div>
+                    <Link to="/blogs/transfer-learning-with-tensorflow" target="_blank" className="text-lg" style={{color:"#5AE86B"}}>Read More &#x21e8;</Link>
+                </div>
+            </div>
+
+                    <div className="flex flex-col p-8 mx-10 rounded-xl" style={{backgroundColor:'#171B1E'}}>
                         <div>
-                            <img src={BlogImage2} alt="BlogImage2" style={{width:"550px"}} />
+                            <img src={"https://blog.keras.io/img/keras-tensorflow-logo.jpg"} alt="BlogImage2" style={{width:"850px"}} />
                         </div>
                         <div className="flex flex-col justify-between " style={{color:"#9A9A9A"}}>
                             <div className="text-lg mt-5">Date - 21st Nov , 2021</div>
-                            <div className="text-2xl font-semibold my-2">How To Store Sessions in MongoDB Using Express.Js</div>
-                            <div className="text-lg my-2 text-justify md:mr-20">MongoDB is one of the very popular database used by many developers for different things. First step is to install mongoose package using npm (node package manager ) to access the MongoDB database –</div>
-                            <Link to="/seeblogs" className="text-lg" style={{color:"#5AE86B"}}>Read More &#x21e8;</Link>
+                            <div className="text-2xl font-semibold my-2">Transfer learning with TensorFlow</div>
+                            <div className="text-lg my-2 text-justify md:mr-20">The most pervasive problems in machine learning are related to data: it can be either insufficient, or low-quality. One obvious solution to this set of problems is to acquire more and better data. However, these two often do not go together. We have to sacrifice quality for quantity or vice versa.</div>
+                            <Link to="/blogs/transfer-learning-with-tensorflow" target="_blank" className="text-lg" style={{color:"#5AE86B"}}>Read More &#x21e8;</Link>
                         </div>
                     </div>
 
-                    <div className="flex flex-col mt-16 md:mt-0">
-                        <div>
-                            <img src={BlogImage2} alt="BlogImage2" style={{width:"550px"}} />
-                        </div>
-                        <div className="flex flex-col justify-between " style={{color:"#9A9A9A"}}>
-                            <div className="text-lg mt-5">Date - 21st Nov , 2021</div>
-                            <div className="text-2xl font-semibold my-2">How To Store Sessions in MongoDB Using Express.Js</div>
-                            <div className="text-lg my-2 text-justify md:mr-20">MongoDB is one of the very popular database used by many developers for different things. First step is to install mongoose package using npm (node package manager ) to access the MongoDB database –</div>
-                            <Link to="/seeblogs" className="text-lg" style={{color:"#5AE86B"}}>Read More &#x21e8;</Link>
-                        </div>
-                    </div>
+                    
 
                 </div>
 
                 <div className="flex flex-col md:flex-row px-5 md:px-36">
                     <div className="md:w-1/2">
-                        <img src={BlogImage} alt="BlogImage" style={{width:"550px"}} />
+                        <img src={"https://blog.keras.io/img/keras-tensorflow-logo.jpg"} alt="BlogImage" style={{width:"550px"}} />
                     </div>
                     <div className="md:w-1/2 flex flex-col justify-between" style={{color:"#9A9A9A"}}>
                         <div className="text-lg">Date - 21st Nov , 2021</div>
                         <div className="text-2xl font-semibold my-2">How To Store Sessions in MongoDB Using Express.Js</div>
                         <div className="text-lg my-2 text-justify">MongoDB is one of the very popular database used by many developers for different things. First step is to install mongoose package using npm (node package manager ) to access the MongoDB database –</div>
-                        <Link to="/seeblogs" className="text-lg" style={{color:"#5AE86B"}}>Read More &#x21e8;</Link>
+                        <Link to="/blogs/how-to-store-sessions-in-mongo-db-using-express.Js" className="text-lg" style={{color:"#5AE86B"}}>Read More &#x21e8;</Link>
                     </div>
                 </div>
 

@@ -8,6 +8,8 @@ import Sidebar from '../components/Sidebar'
 import '../css/SeePost.css'
 import Footer from '../components/Footer'
 import { motion } from 'framer-motion'
+import MongoDB from '../images/mongodb.png'
+import SeePost2 from '../Pages/SeePost2'
 
 const box = {
     initial: {
@@ -84,7 +86,7 @@ export default function SeePost() {
             <div className="home-section">
 
                 <div className="py-20 px-36" style={{color:"#9A9A9A"}}>
-                    <img src={BlogImage} alt="BlogImage" style={{width:"100%"}}  />
+                    <img src={MongoDB} alt="BlogImage" style={{width:"100%"}}  />
 
                     <div className="Blog-Body -mt-28 p-20 mx-10">
                         <div className="Blog-Title mb-10">
@@ -97,17 +99,56 @@ export default function SeePost() {
                         </div>
 
                         <div className="text-xl px-16 text-justify my-10">
-                            Cloud Firestore is a flexible, scalable database for mobile, web, and server development from Firebase and Google Cloud. Like Firebase Realtime Database, it keeps your data in sync across client apps through realtime listeners and offers offline support for mobile and web so you can build responsive apps that work regardless of network latency or Internet connectivity. Cloud Firestore also offers seamless integration with other Firebase and Google Cloud products, including Cloud Functions.
+                          <h1 className="font-bold text-2xl text-white">Session -</h1>
+                          <div className="px-5 my-3 leading-10">
+                          <ul><span className="text-white">&#9737;</span> Sessions are server side file that contains user information.</ul>
+                          <ul><span className="text-white">&#9737;</span>  Session are not stored in user’s browsers unlike cookies..</ul>
+                          <ul><span className="text-white">&#9737;</span> As soon as you close your browser you will loose your session , i.e user data will be deleted .</ul>
+                          <ul><span className="text-white">&#9737;</span> It stores our objects in sessions .</ul>
+                          </div>
+
+                          <h1 className="font-bold text-2xl text-white">Cookies – </h1>
+                          <div className="px-5 my-3 leading-10">
+                          <ul><span className="text-white">&#9737;</span> Cookies are Client-side files that conatins user information .</ul>
+                          <ul><span className="text-white">&#9737;</span>  Cookies are stored in user’s browser .</ul>
+                          <ul><span className="text-white">&#9737;</span> Cookies save your data in your browser until you delete that , but we can set cookies lifetime after which it will expire.</ul>
+                          <ul><span className="text-white">&#9737;</span> Cookies can only store strings.</ul>
+                          </div>
+                          MongoDB is one of the very popular database used by many developers for different things .
+                          <div className="px-5 my-3 leading-8 text-lg">
+                            <ul> <span className="text-white px-3">&#9737;</span>First step is to install mongoose package using npm (node package manager ) to access the MongoDB database –</ul>
+                            <ul> <span className="text-white px-3">&#9737;</span>Second step is to install the connect-mongo & sessionpackage using npm –</ul>
+                            <ul> <span className="text-white px-3">&#9737;</span>Now in server.js we will have to import these package to use it</ul>
+                          </div>
+                         
                         </div>
 
                         <div className="flex flex-col items-center">
-                            <img src={BlogImage2} alt="BlogImage2" style={{width:"400px"}} />
-                            <p className="text-sm font-semibold">Fig 1  - HTML to GOOGLE SHEET</p>
+                            <img src={"https://letscodee.com/wp-content/uploads/2021/06/1.png"} alt="BlogImage2" style={{width:"700px"}} />
+                            <p className="text-sm font-semibold mt-1">Fig1 - Server.js</p>
                         </div>
 
                         <div className="text-xl px-16 text-justify my-10">
-                            Cloud Firestore is a flexible, scalable database for mobile, web, and server development from Firebase and Google Cloud. Like Firebase Realtime Database, it keeps your data in sync across client apps through realtime listeners and offers offline support for mobile and web so you can build responsive apps that work regardless of network latency or Internet connectivity. Cloud Firestore also offers seamless integration with other Firebase and Google Cloud products, including Cloud Functions.
+                        <div className="px-5 my-3 leading-8 text-lg">
+                            <ul> <span className="text-white px-3">&#9737;</span>Now we will connect the MongoDB with our App –</ul>                           
+                          </div>                            
                         </div>
+
+                        <div className="flex flex-col items-center">
+                        <img src={"https://letscodee.com/wp-content/uploads/2021/06/2.png"} alt="BlogImage2" style={{width:"700px"}} />
+                        <p className="text-sm font-semibold mt-1">Fig2 - Server.js (Connect The App)</p>
+                    </div>
+
+                        <div className="text-xl px-16 text-justify my-10">
+                        <div className="px-5 my-3 leading-8 text-lg">
+                            <ul> <span className="text-white px-3">&#9737;</span>Now we have to do session configuration –</ul>                           
+                          </div>                            
+                        </div>
+
+                        <div className="flex flex-col items-center">
+                        <img src={"https://letscodee.com/wp-content/uploads/2021/06/3.png"} alt="BlogImage2" style={{width:"700px"}} />
+                        <p className="text-sm font-semibold mt-1">Fig3 - Server.js (session Configuration)</p>
+                    </div>
                     </div>
                 </div>
 
@@ -118,9 +159,9 @@ export default function SeePost() {
                     </div>
                     <div className="w-1/2 flex flex-col justify-between" style={{color:"#9A9A9A"}}>
                         <div className="text-lg">Date - 21st Nov , 2021</div>
-                        <div className="text-2xl font-semibold my-2">How To Store Sessions in MongoDB Using Express.Js</div>
-                        <div className="text-lg my-2 text-justify">MongoDB is one of the very popular database used by many developers for different things. First step is to install mongoose package using npm (node package manager ) to access the MongoDB database –</div>
-                        <Link to="/seeblogs" className="text-lg" style={{color:"#5AE86B"}}>Read More &#x21e8;</Link>
+                        <div className="text-2xl font-semibold my-2">Transfer learning with TensorFlow</div>
+                        <div className="text-lg my-2 text-justify">The most pervasive problems in machine learning are related to data: it can be either insufficient, or low-quality. One obvious solution to this set of problems is to acquire more and better data. However, these two often do not go together. We have to sacrifice quality for quantity or vice versa. </div>
+                        <Link to="/blogs/transfer-learning-with-tensorflow" target="_blank" className="text-lg" style={{color:"#5AE86B"}}>Read More &#x21e8;</Link>
                     </div>
                 </div>
 
