@@ -1,15 +1,16 @@
-import React from 'react'
+import React,{ useEffect } from 'react'
+import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import BlogImage from '../images/BlogImage.png'
-import BlogImage2 from '../images/BlogImage2.png'
+// Component
+import Sidebar from '../components/Sidebar'
+import Footer from '../components/Footer'
+// Icons
 import profile from '../icons/profile.svg'
 import Calander from '../icons/Calander.svg'
-import Sidebar from '../components/Sidebar'
-import '../css/SeePost.css'
-import Footer from '../components/Footer'
-import { motion } from 'framer-motion'
+// Image
 import MongoDB from '../images/mongodb.png'
-import SeePost2 from '../Pages/SeePost2'
+// CSS
+import '../css/SeePost.css'
 
 const box = {
     initial: {
@@ -51,6 +52,9 @@ const textContainer = {
   };
 
 export default function SeePost() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  });
     return (
         <div>
         <motion.div

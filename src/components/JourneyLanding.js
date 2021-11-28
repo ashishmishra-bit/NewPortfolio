@@ -89,12 +89,11 @@ export default function JourneyLanding() {
                                 </>
                             )
                         })}
-                        
                     </div>
 
                 </div>
             </div>
-            <Link to="/journey" >
+            <Link to="/journey">
             <Animation />
             </Link>
         </div>

@@ -29,7 +29,7 @@ export default function TechAndTools() {
     return (
         <div className="px-5 md:px-24 py-16">
 
-            <div className="Landing-Heading TechAndTools-Heading text-center mb-10">TECH & TOOLS</div>
+            <div className="Landing-Heading TechAndTools-Heading text-center mb-36 md:mb-10">TECH <br className="md:hidden" /> & <br className="md:hidden" /> TOOLS</div>
             
             <div className="flex flex-col md:flex-row mt-20">
                 <div className="md:w-1/2 TechAndTools-SubHeading">FRONT-END</div>

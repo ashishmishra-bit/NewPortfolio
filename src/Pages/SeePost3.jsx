@@ -1,14 +1,14 @@
-import React from 'react'
+import React,{ useEffect } from 'react'
+import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import BlogImage from '../images/BlogImage.png'
-import BlogImage2 from '../images/BlogImage2.png'
+// Component
+import Sidebar from '../components/Sidebar'
+import Footer from '../components/Footer'
+// Icons
 import profile from '../icons/profile.svg'
 import Calander from '../icons/Calander.svg'
-import Sidebar from '../components/Sidebar'
+// CSS
 import '../css/SeePost.css'
-import Footer from '../components/Footer'
-import { motion } from 'framer-motion'
-import MongoDB from '../images/mongodb.png'
 
 const box = {
     initial: {
@@ -50,6 +50,9 @@ const text = {
 };
 
 export default function SeePost() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    });
     return (
         <div>
             <motion.div

@@ -155,7 +155,7 @@ export default {
         {
             title: 'B.Tech Information Technology (KIIT)',
             date: 'July-2019 - Present',
-            desc: 'I am a 3rd year IT student , currently studying in KIIT. I secured 8.5 CGPA in my 2nd Year. I have started doing development stuffs from mid of my 1st year and development facinated me a lot. I also got the opportunity to do research work and publish it. I am working on Deep Learning technologies and my papers will be published soon.',
+            desc: 'I am a 3rd year IT student , currently studying in KIIT. I secured 8.5 CGPA in my 2nd Year. I have started doing development stuffs from mid of my 1st year and development facinated me a lot.',
             imgUrl: KiitLogo,
         },
         {

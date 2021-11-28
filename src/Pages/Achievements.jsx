@@ -1,7 +1,16 @@
-import React from 'react'
-import '../css/Achievements.css'
+import React,{ useEffect } from 'react';
+import { motion } from 'framer-motion'
+import Particles from 'particles-bg'
+// Components
+import Sidebar from '../components/Sidebar'
+import Navbar from '../components/Navbar'
+import Certificates from '../components/Certificates'
+import Footer from '../components/Footer'
+// Images
 import AchievementsHeader from '../images/AchievementsHeader.png'
 import HackerRankLogo from '../images/HackerRankLogo.png'
+// Icons
+// import CodeChiefLogo from '../icons/CodeChiefLogo.png'
 import credentials from '../icons/credentials.png'
 import problemSolvingBadge from '../icons/problemSolvingBadge.png'
 import DaysOfCodingBadge from '../icons/30DaysOfCodingBadge.png'
@@ -9,21 +18,15 @@ import star from '../icons/star.svg'
 import CppBadge from '../icons/CppBadge.png'
 import JavaBadge from '../icons/JavaBadge.png'
 import LeetcodeLogo from '../icons/LeetcodeLogo.png'
-// import CodeChiefLogo from '../icons/CodeChiefLogo.png'
-import Footer from '../components/Footer'
-import Sidebar from '../components/Sidebar'
-import Coursera from '../images/coursera.png'
-import Eudonix from '../images/eudonix.png'
-import Udemy from '../images/udemy.png'
 import Dp from '../icons/DP.png'
 import Ds from '../icons/DS.png'
 import Algo from '../icons/algo.png'
 import Algo2 from '../icons/algo2.png'
-import Navbar from '../components/Navbar'
-import Certificates from '../components/Certificates'
-import { motion } from 'framer-motion'
+// JSON
 import resumeDetails from '../JsonData/resumeDetails'
-import Particles from 'particles-bg'
+// CSS
+import '../css/Achievements.css'
+
 
 const box = {
     initial: {
@@ -66,6 +69,9 @@ const textContainer = {
 
 
 export default function Achievements() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    });
     return (
         <div>
         <motion.div

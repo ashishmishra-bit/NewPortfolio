@@ -129,9 +129,9 @@
     /* POPUP CARD */
 
     .Project-about{
-        width: 800px;
-        height: 750px;
-        padding-bottom: 50px;
+        width: 100vw;
+        height: 100vh;
+        min-height: 650px;
         background: #171B1E;
         border-radius: 10px;
         animation: slog 0.5s 1 ease;

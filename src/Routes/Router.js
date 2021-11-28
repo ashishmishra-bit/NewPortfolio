@@ -1,7 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Switch, Route } from 'react-router';
-
-
 import Blogs from '../Pages/Blogs';
 import Journey from '../Pages/Journey';
 import Landing from '../Pages/Landing'
@@ -12,14 +10,9 @@ import SeePost3 from '../Pages/SeePost3'
 import SeePost4 from '../Pages/SeePost4'
 import Achievements from '../Pages/Achievements';
 
-
-
-
-
 const Routes = () => {
     return (
         <>
-           
             <Switch>
                 <Route exact path="/" component={Landing} />
                 <Route exact path="/journey" component={Journey} />

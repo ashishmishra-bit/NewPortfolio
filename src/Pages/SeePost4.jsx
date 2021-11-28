@@ -1,14 +1,15 @@
-import React from 'react'
+import React,{ useEffect } from 'react'
+import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import BlogImage from '../images/BlogImage.png'
-import BlogImage2 from '../images/BlogImage2.png'
+// Component
+import Sidebar from '../components/Sidebar'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+// Icons
 import profile from '../icons/profile.svg'
 import Calander from '../icons/Calander.svg'
-import Sidebar from '../components/Sidebar'
+// CSS
 import '../css/SeePost.css'
-import Footer from '../components/Footer'
-import { motion } from 'framer-motion'
-import MongoDB from '../images/mongodb.png'
 
 const box = {
     initial: {
@@ -50,6 +51,9 @@ const text = {
 };
 
 export default function SeePost() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    });
     return (
         <div>
             <motion.div
@@ -83,23 +87,23 @@ export default function SeePost() {
             </motion.div>
             <Sidebar />
             <div className="home-section">
-
-                <div className="py-20 px-36" style={{ color: "#9A9A9A" }}>
+                <Navbar />
+                <div className="py-20 px-5 md:px-36" style={{ color: "#9A9A9A" }}>
                     <img src={"https://entrepreneurhandbook.co.uk/wp-content/uploads/2020/08/Web-development-2.0.jpg.webp"} alt="BlogImage" style={{ width: "100%" }} />
 
-                    <div className="Blog-Body -mt-20 p-20 mx-10">
-                        <div className="Blog-Title mb-10">
+                    <div className="Blog-Body -mt-20 md:p-20 md:mx-10">
+                        <div className="Blog-Title pt-5 md:pt-0 mb-10">
                             Getting Started with Web-Development
                         </div>
 
-                        <div className="flex flex-row items-center text-lg font-semibold">
-                            <div className="w-1/2 flex flex-row items-center justify-end mr-3"><img src={profile} alt="profile" style={{ width: "20px" }} /> <span className="ml-3">Ashish Kumar Mishra</span> </div> |
-                            <div className="w-1/2 flex flex-row items-center ml-3"><img src={Calander} alt="Calander" style={{ width: "20px" }} /> <span className="ml-3">Date - 21st Nov, 2021</span> </div>
+                        <div className="flex flex-col md:flex-row items-center text-lg font-semibold">
+                            <div className="md:w-1/2 flex flex-row items-center justify-end md:mr-3"><img src={profile} alt="profile" style={{ width: "20px" }} /> <span className="ml-3">Ashish Kumar Mishra</span> </div> <span className="hidden md:block">|</span>
+                            <div className="md:w-1/2 flex flex-row items-center md:ml-3 mt-5 md:mt-0"><img src={Calander} alt="Calander" style={{ width: "20px" }} /> <span className="ml-3">Date - 21st Nov, 2021</span> </div>
                         </div>
 
-                        <div className="text-xl px-16 text-justify my-10">
-                            <h1 className="font-bold text-2xl text-white">Introduction</h1>
-                            <div className="my-3 leading-10 text-lg">
+                        <div className="px-5 md:px-16 text-justify my-10">
+                            <h1 className="font-bold text-xl md:text-2xl text-white">Introduction</h1>
+                            <div className="my-3 leading-10 text-base md:text-lg">
                                 <p className="pb-3">Building and maintaining the website is called WEB-DEVELOPMENT .The term Development is the process that goes behind the scenes to make such beautiful , efficient and optimized website.Web-development can be categorized into three parts – </p>
 
                                 <div className="px-5 my-3 leading-10">
@@ -114,7 +118,7 @@ export default function SeePost() {
                             </div>
 
                             <div className="my-3 leading-10 text-lg">
-                                <h1 className="font-bold text-2xl text-white">Most Popular and used Front-End Technologies or Stack –</h1>
+                                <h1 className="font-bold text-2xl text-white mt-10">Most Popular and used Front-End Technologies or Stack –</h1>
                                 • Html
                                 • Css
                                 • Scss
@@ -125,7 +129,7 @@ export default function SeePost() {
                                 • Next.Js
                                 • Flask(Python)
                                 • Three.Js
-                                <h1 className="font-bold text-2xl text-white">Most Popular and used Back-End Technologies or Stack – –</h1>
+                                <h1 className="font-bold text-2xl text-white mt-10">Most Popular and used Back-End Technologies or Stack – –</h1>
                                 • Node.js
                                 • Backbone.js
                                 • Django(Python)
@@ -137,15 +141,16 @@ export default function SeePost() {
                 </div>
 
                 {/* Other BLOG */}
-                <div className="flex flex-row px-36 my-20">
-                    <div className="w-1/2">
-                        <img src={"https://blog.keras.io/img/keras-tensorflow-logo.jpg"} alt="BlogImage" style={{ width: "550px" }} />
-                    </div>
-                    <div className="w-1/2 flex flex-col justify-between" style={{ color: "#9A9A9A" }}>
-                        <div className="text-lg">Date - 21st Nov , 2021</div>
-                        <div className="text-2xl font-semibold my-2">Transfer learning with TensorFlow</div>
-                        <div className="text-lg my-2 text-justify">The most pervasive problems in machine learning are related to data: it can be either insufficient, or low-quality. One obvious solution to this set of problems is to acquire more and better data. However, these two often do not go together. We have to sacrifice quality for quantity or vice versa. </div>
-                        <Link to="/blogs/transfer-learning-with-tensorflow" className="text-lg" style={{ color: "#5AE86B" }}>Read More &#x21e8;</Link>
+                <div className="flex flex-col md:flex-row px-5 md:px-36 mb-20">
+                    <Link to="/blogs/how-to-store-sessions-in-mongo-db-using-express.Js" className="md:w-1/2">
+                        <img src={"https://webimages.mongodb.com/_com_assets/cms/kuzt9r42or1fxvlq2-Meta_Generic.png"} alt="BlogImage" style={{ width: "550px" }, { borderRadius: "31px" }} />
+                    </Link>
+                    <div className="md:w-1/2 flex flex-col justify-between md:ml-10" style={{ color: "#9A9A9A" }}>
+                        <div className="text-lg mt-5 md:mt-0">Date - 21st jan , 2021</div>
+                        <Link to="/blogs/how-to-store-sessions-in-mongo-db-using-express.Js"><div className="text-2xl font-semibold my-2">How To Store Sessions in MongoDB Using Express.Js</div></Link>
+                        <div className="text-lg my-2 text-justify">MongoDB is one of the very popular database used by many developers for different things. First step is to install mongoose package using npm (node package manager ) to access the MongoDB database –</div>
+
+                        <Link to="/blogs/how-to-store-sessions-in-mongo-db-using-express.Js" className="text-lg" style={{ color: "#5AE86B" }}>Read More &#x21e8;</Link>
                     </div>
                 </div>
 

@@ -1,27 +1,24 @@
-import React from 'react'
+import React,{ useEffect } from 'react';
+import { motion } from 'framer-motion'
+import Particles from 'particles-bg'
+// Components
 import Sidebar from '../components/Sidebar'
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+// Icons
 import workExp from '../icons/workExp.png'
-import KiitLogo from '../icons/KiitLogo.png'
+import JourneyVideo from '../icons/journey2.mp4';
+// Images
 import Narangi from '../images/Narangi.png'
 import Company from '../images/Company.png'
-import Freelance from '../images/freelance.png'
-import Kenisha from '../images/kenisha.png'
-import Gfgkiit from '../images/gfgkiit.png'
-import A2d from '../images/a2d.png'
-import Apsn from '../images/apsn.png'
 import Gfg2 from '../images/gfg2.png'
 import A2d2 from '../images/a2d2.png'
 import Free from '../images/free.png'
 import Kiit2 from '../images/kiit2.png'
+// CSS
 import '../css/Journey.css'
-import Footer from '../components/Footer'
-import Navbar from '../components/Navbar'
-import { motion } from 'framer-motion'
-import JourneyVideo from '../icons/journey2.mp4';
+// JSON
 import resumeDetails from '../JsonData/resumeDetails'
-import Particles from 'particles-bg'
-
-
 
 const box = {
     initial: {
@@ -62,9 +59,10 @@ const text = {
     },
 };
 
-
-
 export default function Journey() {
+    useEffect(() => {
+        window.scrollTo(0, 0);
+      });
     return (
         <div>
             <motion.div
@@ -93,7 +91,6 @@ export default function Journey() {
                     >
                         &#64;Ashish_Journey
                     </text>
-
                 </motion.svg>
             </motion.div>
             <Sidebar />
@@ -102,38 +99,29 @@ export default function Journey() {
                 <Navbar />
                 <Particles color="#48CAE4" num={200} type="cobweb" bg={true} />
                 {/* HEADING SECTION */}
-
                 <div className="Journey-header flex flex-col justify-end md:justify-center items-center">
                     <div className="Landing-Heading text-center mb-10 z-10">JOURNEY</div>
-                    <p className="journey-header-text z-10">My Brain Has Too Many Tabs open 😉 😉 😉
-                    </p>
-
-
+                    <p className="journey-header-text z-10">My Brain Has Too Many Tabs open 😉 😉 😉</p>
                     <video autoPlay loop className="video-background" muted >
                         <source src={JourneyVideo} type="video/mp4" />
-
                     </video>
                 </div>
 
-
                 <div className="Landing-Journey md:px-24 py-10">
-
-                    {/* <div className="Landing-Heading text-center mb-10">JOURNEY</div> */}
 
                     <div className="flex flex-col md:flex-row px-5 md:px-0">
                         {/* Journey-Work */}
                         <div className="md:w-1/2">
-
-                            <div className="Journey-Heading flex flex-row items-center">
-                                <img src={workExp} alt="work" style={{ width: "50px" }} />
+                            <div className="Journey-Heading flex flex-row items-center mb-20">
+                                <img src={workExp} alt="work" style={{ width: "50px" }} className="z-10" />
                                 <div className="text-3xl md:text-4xl text-white ml-8" style={{ color: "#ACACAC" }}>Work Experience</div>
                             </div>
-                            <div className="Timeline h-36 md:h-16 "></div>
+                            {/* <div className="Timeline h-36 md:h-16 "></div> */}
                             {resumeDetails.experiences.map((exp) => {
                                 return (
                                     <>
-                                        <div className="Timeline h-44 md:h-36 -mt-20"></div>
-                                        <div className="Journey-Heading  flex flex-row items-center -mt-28 md:-mt-20 py-4">
+                                        <div className="Timeline h-72 md:h-56 -mt-28 md:-mt-24 z-0"></div>
+                                        <div className="Journey-Heading flex flex-row items-center md:py-4 -mt-28 md:-mt-24">
                                             <img src={exp.imgUrl} alt="work" style={{ width: "50px" }} className="z-10" />
                                             <div className="text-white ml-8" >
                                                 <div className="text-xl">{exp.title}</div>
@@ -150,19 +138,17 @@ export default function Journey() {
                         {/* Journey-Edu */}
                         <div className="md:w-1/2 mt-32 md:mt-0">
 
-                            <div className="Journey-Heading  flex flex-row items-center">
-                                <img src={workExp} alt="work" style={{ width: "50px" }} />
+                            <div className="Journey-Heading  flex flex-row items-center mb-20">
+                                <img src={workExp} alt="work" style={{ width: "50px" }} className="z-10" />
                                 <div className="text-4xl text-white ml-8" style={{ color: "#ACACAC" }}>Education</div>
                             </div>
-
-                            <div className="Timeline h-60 md:h-36"></div>
 
                             {resumeDetails.educations.map((edu) => {
                                 return (
                                     <>
-                                        <div className="Timeline h-44 md:h-36 -mt-20"></div>
-                                        <div className="Journey-Heading flex flex-row items-center -mt-40 md:-mt-24 py-5">
-                                            <img src={edu.imgUrl} alt="work" style={{ width: "50px" }} />
+                                        <div className="Timeline h-72 md:h-56 -mt-28 md:-mt-24 z-0"></div>
+                                        <div className="Journey-Heading flex flex-row items-center py-3 md:py-5 -mt-28 md:-mt-24">
+                                            <img src={edu.imgUrl} alt="work" style={{ width: "50px" }} className="z-10" />
                                             <div className="text-white ml-8"  >
                                                 <div className="text-xl">{edu.title}</div>
                                                 <div className="text-lg py-2" style={{ color: "#ACACAC" }}>{edu.date}</div>
@@ -190,11 +176,8 @@ export default function Journey() {
                         </div>
                     </div>
 
-
                 </div>
-
                 <Footer />
-
             </div>
         </div>
     )
