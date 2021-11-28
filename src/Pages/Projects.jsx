@@ -32,6 +32,8 @@ import Figma from "../icons/figma.png"
 import Next from "../icons/next.png"
 import ProjectModal from '../components/ProjectModal'
 import { motion } from 'framer-motion'
+import Next2 from "../icons/Next2.png"
+import Tailwind from "../icons/tailwindcss.svg"
 
 const box = {
     initial: {
@@ -336,10 +338,10 @@ export default function Projects() {
                         <div className="projectCard flex flex-row items-end ml-4" onClick={displayFlex4} style={{backgroundImage:`url(${Project4})`}}>
                             <div className="w-1/2 lg text-white">Geek Music Bot </div>
                             <div className="w-1/2 flex flex-row justify-end mb-4">
-                                <img src={javaScript} alt="javaScript" className="mr-3" style={{width:"50px",height:"50px"}} />
-                                <img src={Nodejs} alt="html" className="mr-3 " style={{width:"50px",height:"50px"}} />
-                                <img src={Figma} className="mr-3 " alt="css" style={{width:"60px",height:"50px"}} />
-                                <img src={Next} className="mr-3 " alt="css" style={{width:"60px",height:"50px"}} />
+                                <img src={javaScript} alt="javaScript" className="mr-3" style={{width:"40px",height:"40px"}} />
+                                <img src={Tailwind} alt="html" className="mr-3 " style={{width:"40px",height:"40px"}} />
+                                <img src={Figma} alt="css" style={{width:"40px",height:"50px"}} />
+                                <img src={Next2} className="mr-3 " alt="css" style={{width:"90px",height:"50px"}} />
                             </div>
                         </div>
                         {/* Card Four Popup */}
@@ -353,9 +355,9 @@ export default function Projects() {
                                         <div className="TechStack-SubHeading mt-10">TECH STACK</div>
                                         <div className="flex flex-row mt-5 justify-center ">
                                         <img src={javaScript} alt="javaScript" className="mr-3" style={{width:"50px",height:"50px"}} />
-                                <img src={Nodejs} alt="html" className="mr-3 " style={{width:"50px",height:"50px"}} />
+                                <img src={Tailwind} alt="html" className="mr-3 " style={{width:"50px",height:"50px"}} />
                                 <img src={Figma} className="mr-3 " alt="css" style={{width:"60px",height:"50px"}} />
-                                <img src={Next} className="mr-3 " alt="css" style={{width:"60px",height:"50px"}} />
+                                <img src={Next2} className="mr-3 " alt="css" style={{width:"90px",height:"50px"}} />
                                         </div>
                                     </div>
                                 </div>
