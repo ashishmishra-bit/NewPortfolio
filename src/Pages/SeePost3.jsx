@@ -85,11 +85,11 @@ export default function SeePost() {
             <div className="home-section">
 
                 <div className="py-20 px-36" style={{ color: "#9A9A9A" }}>
-                    <img src={"http://devclass.com/wp-content/uploads/2018/08/Tensorflow.jpg"} alt="BlogImage" style={{ width: "100%" }} />
+                    <img src={"https://www.euractiv.com/wp-content/uploads/sites/2/2021/07/AI-800x450.jpg"} alt="BlogImage" style={{ width: "100%" }} />
 
                     <div className="Blog-Body -mt-20 p-20 mx-10">
                         <div className="Blog-Title mb-10">
-                            Transfer learning with TensorFlow
+                        Sentiment Analysis using Deep Learning
                         </div>
 
                         <div className="flex flex-row items-center text-lg font-semibold">
@@ -98,21 +98,20 @@ export default function SeePost() {
                         </div>
 
                         <div className="text-xl px-16 text-justify my-10">
-                            <h1 className="font-bold text-2xl text-white">A brief introduction to transfer learning</h1>
+                            <h1 className="font-bold text-2xl text-white">Introduccction</h1>
                             <div className="my-3 leading-10 text-lg">
-                                <p className="pb-3">The most pervasive problems in machine learning are related to data: it can be either insufficient, or low-quality. One obvious solution to this set of problems is to acquire more and better data. However, these two often do not go together. We have to sacrifice quality for quantity or vice versa. Fortunately, there is a more innovative solution: transfer learning.</p>
-                                <p className="pb-3">Transfer learning is a method of reusing an already trained model for another task. The original training step is called pre-training. The general idea is that, pre-training “teaches” the model more general features, while the latter final training stage “teaches” it features specific to our own (limited) data.</p>
+                                <p className="pb-3">The growth of the internet due to social networks such as facebook, twitter, Linkedin,  instagram etc. has led to significant users interaction and has empowered users to express their opinions about products, services, events, their preferences among others. It has also provided opportunities to the users to share their wisdom and experiences with each other. The faster development of social networks is causing explosive growth of digital content. It has turned online opinions, blogs, tweets, and posts into a very valuable asset for the corporates to get insights from the data and plan their strategy. </p>
+                                <p className="pb-3">Traditional approach to manually extract complex features, identify which feature is relevant, and derive the patterns from this huge information is very time consuming and require significant human efforts. However, Deep Learning can exhibit excellent performance via Natural Language Processing (NLP) techniques to perform sentiment analysis on this massive information. The core idea of Deep Learning techniques is to identify complex features extracted from this vast amount of data without much external intervention using deep neural networks. These algorithms automatically learn new complex features. Both automatic feature extraction and availability of resources are very important when comparing the traditional machine learning approach and deep learning techniques(Araque et al., 2017).  Here the goal is to classify the opinions and sentiments expressed by users. In this article, we will discuss about various sentiment analysis techniques and several ensemble models to aggregate the information from multiple features.</p>
                             </div>
 
-                            <h1 className="font-bold text-2xl text-white mb-10">Tensorflow and Keras API</h1>
+                            <h1 className="font-bold text-2xl text-white mb-10">Sentiment analysis</h1>
                             <div className="flex flex-col items-center">
-                                <img src={"https://blog.keras.io/img/keras-tensorflow-logo.jpg"} alt="BlogImage2" style={{ width: "700px" }} />
+                                <img src={"https://storage.ning.com/topology/rest/1.0/file/get/7316024065?profile=original"} alt="BlogImage2" style={{ width: "700px" }} />
                                 <p className="text-sm font-semibold mt-1">Fig1 - Tensorflow and Keras</p>
                             </div>
 
                             <div className="my-3 leading-10 text-lg">
-                                <p className="pb-3">TensorFlow is an end-to-end platform that enables building and deploying ML models. We are only interested in building models, not deploying them, and for that, we need to use Keras. Keras is an API designed for “human beings, not machines,” to quote themselves. That’s to say, Keras is designed for coders like us who want to build custom models. Its simple and easy-to-remember syntax makes it almost addictive.</p>
-                                <p className="pb-3">While Keras API itself is available as a stand-alone Python library, it is also available as part of the TensorFlow library. Using tensorflow.keras is recommended over Keras itself, as it is maintained by the TensorFlow team, which ensures consistency with other TensorFlow modules.</p>
+                                <p className="pb-3">It is a set of techniques / algorithms used to detect the sentiment (positive, negative, or neutral) of a given text. It is a very powerful application of natural language processing (NLP) and finds usage in a large number of industries. It refers to the use of NLP, text analysis, computational linguistics, and biometrics to systematically identify, extract, quantify, study different states and subjective information. The sentiment analysis sometimes goes beyond the categorization of texts to find opinions and categorizes them as positive or negative, desirable or undesirable. Below figure describes the architecture of sentiment classification on texts. </p>                                
                             </div>
                         </div>                                              
                     </div>
@@ -121,12 +120,12 @@ export default function SeePost() {
                 {/* Other BLOG */}
                 <div className="flex flex-row px-36 my-20">
                     <div className="w-1/2">
-                        <img src={"https://thenfapost.com/wp-content/uploads/2021/03/ai.jpg"} alt="BlogImage" style={{ width: "550px" }} />
+                        <img src={"https://blog.keras.io/img/keras-tensorflow-logo.jpg"} alt="BlogImage" style={{ width: "550px" }} />
                     </div>
                     <div className="w-1/2 flex flex-col justify-between" style={{ color: "#9A9A9A" }}>
                         <div className="text-lg">Date - 21st Nov , 2021</div>
-                        <div className="text-2xl font-semibold my-2">Sentiment Analysis using Deep Learning</div>
-                        <div className="text-lg my-2 text-justify">The growth of the internet due to social networks such as facebook, twitter, Linkedin,  instagram etc. has led to significant users interaction and has empowered users to express their opinions about products, services, events, their preferences among others. </div>
+                        <div className="text-2xl font-semibold my-2">Transfer learning with TensorFlow</div>
+                        <div className="text-lg my-2 text-justify">The most pervasive problems in machine learning are related to data: it can be either insufficient, or low-quality. One obvious solution to this set of problems is to acquire more and better data. However, these two often do not go together. We have to sacrifice quality for quantity or vice versa. </div>
                         <Link to="/blogs/transfer-learning-with-tensorflow" className="text-lg" style={{ color: "#5AE86B" }}>Read More &#x21e8;</Link>
                     </div>
                 </div>

@@ -54,7 +54,7 @@ export default function ProjectLanding() {
                         return (
                             <>
                                 <div className="projectCard-long flex flex-row items-end ml-4" style={{ backgroundImage: `url(${project.imgUrl})` }}>
-                                    <div className="w-1/2 lg text-white">{project.title}</div>
+                                    <div className="w-1/2 lg text-black-800">{project.title}</div>
                                     <div className="w-1/2 flex flex-row justify-end mb-4">
                                         <img src={project.techStack1} alt="javaScript" className="mr-3" />
                                         <img src={project.techStack2} alt="html" className="mr-3" />

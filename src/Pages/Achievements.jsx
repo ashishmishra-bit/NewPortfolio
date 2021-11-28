@@ -22,6 +22,7 @@ import Algo2 from '../icons/algo2.png'
 import Navbar from '../components/Navbar'
 import Certificates from '../components/Certificates'
 import { motion } from 'framer-motion'
+import resumeDetails from '../JsonData/resumeDetails'
 const box = {
     initial: {
         height: "100vh",
@@ -251,70 +252,20 @@ export default function Achievements() {
 
                 <div className="achivements-Title-Heading text-center mb-10 uppercase">Certifications</div>
                 
-                <Certificates 
-                    imgUrl = {HackerRankLogo}
-                    title="Problem Solving (Basic) Certificate"
-                    organization="HackerRank"
-                    date="Issue September , 2021 - No expiration date"
-                    link="https://www.hackerrank.com/certificates/2d7d83a79116"
                 
-                />
-                <Certificates 
-                    imgUrl = {HackerRankLogo}
-                    title="Problem Solving (Intermediate) Certificate"
-                    organization="HackerRank"
-                    date="Issue September , 2021 - No expiration date"
-                    link="https://www.hackerrank.com/certificates/d682e68f64f8"
-                
-                />
-                <Certificates 
-                    imgUrl = {Eudonix}
-                    title="Socket Programming"
-                    organization="Eduonix Learning Solutions Pvt Ltd"
-                    date="Issued August , 2021 - No expiration date"
-                    link="https://www.eduonix.com/certificate/2cc7d367ae"
-                
-                />
-                <Certificates 
-                imgUrl = {Coursera}
-                title="AWS Fundamentals: Going Cloud-Native"
-                organization="Coursera"
-                date="Issue June , 2020 - No expiration date"
-                link="https://www.coursera.org/account/accomplishments/certificate/E4DSTYJMXKUJ"
-            
-                />
-                <Certificates 
-                imgUrl = {Udemy}
-                title="Complete Machine Learning"
-                organization="Udemy"
-                date="Issue April , 2020 - No expiration date"
-                link="https://udemy-certificate.s3.amazonaws.com/pdf/UC-0ed139a0-4c15-4742-a97e-1fd3750a9bb5.pdf"
-            
-                />
-
-                <Certificates 
-                imgUrl = {Coursera}
-                title="SEO Fundamentals"
-                organization="Coursera"
-                date="Issue July , 2020 - No expiration date"
-                link="https://www.coursera.org/account/accomplishments/verify/3S2BWL95EQMN?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=pdf_header_button&utm_product=course"
-            
-                />
-                <Certificates 
-                imgUrl = {Coursera}
-                title="Introduction to Search Engine Optimisation"
-                organization="Coursera"
-                date="Issue June , 2020 - No expiration date"
-                link="https://www.coursera.org/account/accomplishments/certificate/TGWSGCSH7RNT"
-            
-                />
-                <Certificates 
-                imgUrl = {Coursera}
-                title="Fundamentals Of Graphics Design"
-                organization="Coursera"
-                date="Issue July , 2020 - No expiration date"
-                link="https://www.coursera.org/account/accomplishments/certificate/4AQ2KAANT7ML"            
-                />               
+                {resumeDetails.certifications.map((certificates) =>{
+                    return(
+                        <>
+                        <Certificates 
+                        imgUrl = {certificates.imgUrl}
+                        title={certificates.title}
+                        organization={certificates.organization}
+                        date={certificates.date}
+                        link={certificates.link}       
+                        /> 
+                        </>
+                    )
+                })}              
 
             </div>
             <Footer />

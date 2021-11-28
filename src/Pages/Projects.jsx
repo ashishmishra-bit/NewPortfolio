@@ -15,7 +15,8 @@ import lottie from 'lottie-web';
 
 import Project1 from '../images/discord.png'
 import Project2 from '../images/project2.png'
-import Project3 from '../images/project3.png'
+// import Project3 from '../images/project3.png'
+import Project4 from '../images/project4.png'
 import project3 from '../images/project3.jpg';
 // import javaScript from "../icons/javaScript.svg"
 import Nodejs from "../icons/nodejs.png"
@@ -27,6 +28,8 @@ import Php from "../icons/php.png"
 import Kotlin from "../icons/kotlin.png"
 import Firebase from "../icons/firebase.png"
 import Java from "../icons/java.gif"
+import Figma from "../icons/figma.png"
+import Next from "../icons/next.png"
 import ProjectModal from '../components/ProjectModal'
 import { motion } from 'framer-motion'
 
@@ -283,7 +286,7 @@ export default function Projects() {
 
                     {/* Card Three */}
                     <div className="mt-4 md:mt-0 md:w-1/2">
-                        <div className="projectCard-long flex flex-row items-end ml-5 md:ml-4" onClick={displayFlex3} style={{backgroundImage:`url(${Project3})`}}>
+                        <div className="projectCard-long flex flex-row items-end ml-5 md:ml-4" onClick={displayFlex3} style={{backgroundImage:`url(${project3})`}}>
                             <div className="w-1/2 lg text-white">Simhan's e-VedaShree</div>
                             <div className="w-1/2 flex flex-row justify-end mb-4">
                                 <img src={Java} alt="javaScript" className="mr-3"  />
@@ -330,12 +333,13 @@ export default function Projects() {
                     <div className="md:w-1/2 flex flex-col">
 
                         {/* Card Four Start */}
-                        <div className="projectCard flex flex-row items-end ml-4" onClick={displayFlex4} style={{backgroundImage:`url(${Project1})`}}>
+                        <div className="projectCard flex flex-row items-end ml-4" onClick={displayFlex4} style={{backgroundImage:`url(${Project4})`}}>
                             <div className="w-1/2 lg text-white">Geek Music Bot </div>
                             <div className="w-1/2 flex flex-row justify-end mb-4">
-                                <img src={javaScript} alt="javaScript" className="mr-3" style={{width:"30px",height:"30px"}} />
-                                <img src={Nodejs} alt="html" className="mr-3 -mt-2" style={{width:"50px",height:"50px"}} />
-                                <img src={Express} alt="css" style={{width:"60px",height:"30px"}} />
+                                <img src={javaScript} alt="javaScript" className="mr-3" style={{width:"50px",height:"50px"}} />
+                                <img src={Nodejs} alt="html" className="mr-3 " style={{width:"50px",height:"50px"}} />
+                                <img src={Figma} className="mr-3 " alt="css" style={{width:"60px",height:"50px"}} />
+                                <img src={Next} className="mr-3 " alt="css" style={{width:"60px",height:"50px"}} />
                             </div>
                         </div>
                         {/* Card Four Popup */}
@@ -343,14 +347,15 @@ export default function Projects() {
                             <div className="Project-about flex flex-row justify-center">
                                 <div className="w-1/2 pr-10">
                                     <div className="h-1/2">
-                                        <img src={Project1} alt="{ProjectBackgroundTwo}" style={{height:"100%",width:"100%",borderBottomRightRadius:"120px"}} />
+                                        <img src={Project4} alt="{ProjectBackgroundTwo}" style={{height:"100%",width:"100%",borderBottomRightRadius:"120px"}} />
                                     </div>
                                     <div className="h-1/2">
                                         <div className="TechStack-SubHeading mt-10">TECH STACK</div>
                                         <div className="flex flex-row mt-5 justify-center ">
                                         <img src={javaScript} alt="javaScript" className="mr-3" style={{width:"50px",height:"50px"}} />
-                                        <img src={Nodejs} alt="html" className="mr-3 -mt-3" style={{width:"75px",height:"75px"}} />
-                                        <img src={Express} alt="css" style={{width:"90px",height:"50px"}} />
+                                <img src={Nodejs} alt="html" className="mr-3 " style={{width:"50px",height:"50px"}} />
+                                <img src={Figma} className="mr-3 " alt="css" style={{width:"60px",height:"50px"}} />
+                                <img src={Next} className="mr-3 " alt="css" style={{width:"60px",height:"50px"}} />
                                         </div>
                                     </div>
                                 </div>
@@ -416,7 +421,7 @@ export default function Projects() {
 
                     {/* Card six */}
                     <div className="mt-4 md:mt-0 md:w-1/2 flex md:justify-end">
-                        <div className="projectCard-long flex flex-row items-end ml-5 md:ml-4" onClick={displayFlex6} style={{backgroundImage:`url(${Project3})`}}>
+                        <div className="projectCard-long flex flex-row items-end ml-5 md:ml-4" onClick={displayFlex6} style={{backgroundImage:`url(${project3})`}}>
                             <div className="w-1/2 lg text-white">Simhan's e-VedaShree</div>
                             <div className="w-1/2 flex flex-row justify-end mb-4">
                                 <img src={Java} alt="javaScript" className="mr-3"  />
