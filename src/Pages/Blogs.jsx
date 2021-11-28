@@ -139,13 +139,13 @@ export default function Blogs() {
 
         <div className="flex flex-col md:flex-row px-5 md:px-36">
           <div className="md:w-1/2">
-            <img src={"https://blog.keras.io/img/keras-tensorflow-logo.jpg"} alt="BlogImage" style={{ width: "550px" }} />
+            <img src={"https://entrepreneurhandbook.co.uk/wp-content/uploads/2020/08/Web-development-2.0.jpg.webp"} alt="BlogImage" style={{ width: "550px" }} />
           </div>
           <div className="md:w-1/2 flex flex-col justify-between" style={{ color: "#9A9A9A" }}>
             <div className="text-lg">Date - 21st Nov , 2021</div>
-            <div className="text-2xl font-semibold my-2">How To Store Sessions in MongoDB Using Express.Js</div>
-            <div className="text-lg my-2 text-justify">MongoDB is one of the very popular database used by many developers for different things. First step is to install mongoose package using npm (node package manager ) to access the MongoDB database –</div>
-            <Link to="/blogs/how-to-store-sessions-in-mongo-db-using-express.Js" className="text-lg" style={{ color: "#5AE86B" }}>Read More &#x21e8;</Link>
+            <div className="text-2xl font-semibold my-2">Getting Started with Web-Development</div>
+            <div className="text-lg my-2 text-justify">Building and maintaining the website is called WEB-DEVELOPMENT .The term Development is the process that goes behind the scenes to make such beautiful , efficient and optimized website.</div>
+            <Link to="/blogs/getting-started-with-web-development" className="text-lg" style={{ color: "#5AE86B" }}>Read More &#x21e8;</Link>
           </div>
         </div>
 

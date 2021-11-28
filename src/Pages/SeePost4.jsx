@@ -85,11 +85,11 @@ export default function SeePost() {
             <div className="home-section">
 
                 <div className="py-20 px-36" style={{ color: "#9A9A9A" }}>
-                    <img src={"https://www.euractiv.com/wp-content/uploads/sites/2/2021/07/AI-800x450.jpg"} alt="BlogImage" style={{ width: "100%" }} />
+                    <img src={"https://entrepreneurhandbook.co.uk/wp-content/uploads/2020/08/Web-development-2.0.jpg.webp"} alt="BlogImage" style={{ width: "100%" }} />
 
                     <div className="Blog-Body -mt-20 p-20 mx-10">
                         <div className="Blog-Title mb-10">
-                        Sentiment Analysis using Deep Learning
+                            Getting Started with Web-Development
                         </div>
 
                         <div className="flex flex-row items-center text-lg font-semibold">
@@ -100,20 +100,39 @@ export default function SeePost() {
                         <div className="text-xl px-16 text-justify my-10">
                             <h1 className="font-bold text-2xl text-white">Introduction</h1>
                             <div className="my-3 leading-10 text-lg">
-                                <p className="pb-3">The growth of the internet due to social networks such as facebook, twitter, Linkedin,  instagram etc. has led to significant users interaction and has empowered users to express their opinions about products, services, events, their preferences among others. It has also provided opportunities to the users to share their wisdom and experiences with each other. The faster development of social networks is causing explosive growth of digital content. It has turned online opinions, blogs, tweets, and posts into a very valuable asset for the corporates to get insights from the data and plan their strategy. </p>
-                                <p className="pb-3">Traditional approach to manually extract complex features, identify which feature is relevant, and derive the patterns from this huge information is very time consuming and require significant human efforts. However, Deep Learning can exhibit excellent performance via Natural Language Processing (NLP) techniques to perform sentiment analysis on this massive information. The core idea of Deep Learning techniques is to identify complex features extracted from this vast amount of data without much external intervention using deep neural networks. These algorithms automatically learn new complex features. Both automatic feature extraction and availability of resources are very important when comparing the traditional machine learning approach and deep learning techniques(Araque et al., 2017).  Here the goal is to classify the opinions and sentiments expressed by users. In this article, we will discuss about various sentiment analysis techniques and several ensemble models to aggregate the information from multiple features.</p>
+                                <p className="pb-3">Building and maintaining the website is called WEB-DEVELOPMENT .The term Development is the process that goes behind the scenes to make such beautiful , efficient and optimized website.Web-development can be categorized into three parts – </p>
+
+                                <div className="px-5 my-3 leading-10">
+                                    <ul><span className="text-white">&#9737;</span> Front-End Development – Front-End Development is all about the look and feel about the website. Many people find interest in doing front-end development and its one of the high paid job in the market.</ul>
+                                </div>
                             </div>
 
-                            <h1 className="font-bold text-2xl text-white mb-10">Sentiment analysis</h1>
+                            
                             <div className="flex flex-col items-center">
-                                <img src={"https://storage.ning.com/topology/rest/1.0/file/get/7316024065?profile=original"} alt="BlogImage2" style={{ width: "700px" }} />
-                                <p className="text-sm font-semibold mt-1">Fig1 - Tensorflow and Keras</p>
+                                <img src={"https://miro.medium.com/max/750/1*3T7J7csXY8u36acofw5N8g.jpeg"} alt="BlogImage2" style={{ width: "700px" }} />
+                                <p className="text-sm font-semibold mt-1">Fig1 - Web Development</p>
                             </div>
 
                             <div className="my-3 leading-10 text-lg">
-                                <p className="pb-3">It is a set of techniques / algorithms used to detect the sentiment (positive, negative, or neutral) of a given text. It is a very powerful application of natural language processing (NLP) and finds usage in a large number of industries. It refers to the use of NLP, text analysis, computational linguistics, and biometrics to systematically identify, extract, quantify, study different states and subjective information. The sentiment analysis sometimes goes beyond the categorization of texts to find opinions and categorizes them as positive or negative, desirable or undesirable. Below figure describes the architecture of sentiment classification on texts. </p>                                
+                                <h1 className="font-bold text-2xl text-white">Most Popular and used Front-End Technologies or Stack –</h1>
+                                • Html
+                                • Css
+                                • Scss
+                                • Tailwind Css
+                                • Bootstrap
+                                • Javascript
+                                • React.Js
+                                • Next.Js
+                                • Flask(Python)
+                                • Three.Js
+                                <h1 className="font-bold text-2xl text-white">Most Popular and used Back-End Technologies or Stack – –</h1>
+                                • Node.js
+                                • Backbone.js
+                                • Django(Python)
+                                • GoLang(Taking growth in market)
+                                • Php
                             </div>
-                        </div>                                              
+                        </div>
                     </div>
                 </div>
 

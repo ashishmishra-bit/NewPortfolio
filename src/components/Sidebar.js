@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import React, { useState } from "react";
 import '../css/Sidebar.css'
-import logo from '../images/logo.png'
+import logo from '../images/logo2.png'
 import Journey from '../icons/Journey2.png'
 import Projects from '../icons/Projects2.png'
 import Blogs from '../icons/Blogs2.png'
@@ -20,7 +20,7 @@ const Sidebar = () => {
         <div className="sidebar">
             <div>
                 <Link to="/" className="flex justify-center">
-                    <img src={logo} alt="logo" style={{ width: "45px" }} />
+                    <img src={logo} alt="logo" style={{ width: "165px" }} />
                 </Link>
                 <div className="sidebar-header">
                     <Link to="/journey" className="flex justify-center mt-4">

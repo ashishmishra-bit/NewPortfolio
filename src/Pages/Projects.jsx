@@ -41,6 +41,10 @@ import Next2 from "../icons/Next2.png"
 import Tailwind from "../icons/tailwindcss.svg"
 import java from '../icons/java.png'
 import Project5 from '../icons/Project5.png'
+import Python   from   '../icons/python.png'
+import Jupyter from "../icons/jupyter.svg";
+import Tensorflow from  "../icons/tensorflow.svg";
+import Keras from   "../icons/keras.png";
 
 const box = {
     initial: {
@@ -147,21 +151,21 @@ export default function Projects() {
             <pattern
               id="pattern"
               patternUnits="userSpaceOnUse"
-              width={750}
-              height={800}
+              width={1000}
+              height={900}
               className="text-white"
             >
               <rect className="w-full h-full fill-current" />
               <motion.rect variants={text} className="w-full h-full text-gray-600 fill-current" />
             </pattern>
             <text
-              className="text-4xl font-bold"
+              className="text-3xl font-bold"
               text-anchor="middle"
               x="50%"
               y="50%"
               style={{ fill: "url(#pattern)" }}
             >
-            &#64;Ashish Mishra 
+            &#64;Ashish_Project 
             </text>        
             
       </motion.svg>
@@ -271,7 +275,7 @@ export default function Projects() {
                                     <img src={Project2} alt="{ProjectBackgroundTwo}" style={{height:"100%",width:"100%",borderBottomRightRadius:"120px"}} />
                                 </div>
                                 <div className="h-1/2">
-                                    <div className="TechStack-SubHeading mt-10">TECH typ</div>
+                                    <div className="TechStack-SubHeading mt-10">TECH STACK</div>
                                     <div className="flex flex-row mt-5 justify-center ">
                                     <img src={javaScript} alt="javaScript" className="mr-3" style={{width:"50px",height:"50px"}} />
                                     <img src={Wordpress} alt="html" className="mr-3" style={{width:"50px",height:"50px"}} />
@@ -366,7 +370,7 @@ export default function Projects() {
                                         <div className="flex flex-row mt-5 justify-center ">
                                         <img src={javaScript} alt="javaScript" className="mr-3" style={{width:"50px",height:"50px"}} />
                                 <img src={Tailwind} alt="html" className="mr-3 " style={{width:"50px",height:"50px"}} />
-                                <img src={Figma} className="mr-3 " alt="css" style={{width:"80px",height:"50px"}} />
+                                <img src={Figma} className="mr-3 " alt="css" style={{width:"80px",height:"70px"}} />
                                 <img src={Next2} className="mr-3 " alt="css" style={{width:"90px",height:"50px"}} />
                                         </div>
                                     </div>
@@ -375,12 +379,12 @@ export default function Projects() {
                                     <div className="flex justify-end px-5 mt-5" onClick={displayNone4}>
                                         <img src={cross} alt="cross" style={{width:"25px"}} />
                                     </div>
-                                    <div className="text-white text-base px-5 text-justify" style={{color:"#B5B4B4"}}>This Application allows you to stream music from <span className="text-green-300">YouTube</span> while you are connected to voice channels </div>
-                                    <div className="text-white text-base px-5 text-justify" style={{color:"#B5B4B4"}}> The application has multiple option like - <ul>&#9900; PLay/Pause Option</ul> <ul>&#9900; Queueing the song</ul> <ul>&#9900; Song can be Looped</ul> </div>
-                                    <div className="text-white text-base px-5 text-justify" style={{color:"#B5B4B4"}}>The application is built using a Javascript Library know as <span className="text-green-300">Discod.Js , Youtube API </span> and is Hoted on <span className="text-green-300">Heroku</span> </div>
+                                    <div className="text-white text-base px-5 text-justify" style={{color:"#B5B4B4"}}>This is the that monitors and provide <span className="text-green-300">Trading</span> support. The application has Server Side Rendering, also the application is supported for intallation in your local systems. i.e well known as <span className="text-green-300 text-2xl">PWA (Progressive Web Apps).</span> </div>
+                                    <div className="text-white text-base px-5 text-justify" style={{color:"#B5B4B4"}}> The application is designed and built me and my friend <span className="text-green-300">@Ankit Raj</span> </div>
+                                    <div className="text-white text-base px-5 text-justify" style={{color:"#B5B4B4"}}>The application is built using a React.js framework know as <span className="text-green-300">Next.Js </span> for designing the UI i used <span className="text-green-300">Figma</span> & for styling the web application i used  <span className="text-green-300">Tailwind Css</span> </div>
                                     <div className="flex flex-row justify-evenly my-10">
-                                        <a href="https://github.com/ashishmishra-bit/music-bot" target="_blank" className="px-6 py-2 bg-white rounded-lg text-lg font-semibold">View Demo</a>
-                                        <a href="https://github.com/ashishmishra-bit/music-bot" target="_blank" className="px-6 py-2 bg-white rounded-lg text-lg font-semibold">Get Code <i class="fab fa-github"></i></a>
+                                        <a href="https://aecorcap.com/" target="_blank" className="px-6 py-2 bg-white rounded-lg text-lg font-semibold">View Demo</a>
+                                        <a href="https://github.com/ashishmishra-bit" target="_blank" className="px-6 py-2 bg-white rounded-lg text-lg font-semibold">Get Code <i class="fab fa-github"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -390,11 +394,10 @@ export default function Projects() {
                         <div className="projectCard flex flex-row items-end mt-4 ml-4" onClick={displayFlex5} style={{backgroundImage: `linear-gradient(357.78deg, rgba(0, 0, 0, 0.92) 17.76%, rgba(0, 0, 0, 0) 48.07%),url(${Project5})`}}>
                             <div className="w-1/2 lg text-white">SentiMent Analysis </div>
                             <div className="w-1/2 flex flex-row justify-end mb-4">
-                                <img src={javaScript} alt="javaScript" className="mr-3" style={{width:"30px",height:"30px"}} />
-                                <img src={Wordpress} alt="html" className="mr-3" style={{width:"30px",height:"30px"}} />
-                                <img className="mr-3" src={css} alt="css" style={{width:"30px",height:"30px"}} />
-                                <img className="mr-3" src={html} alt="css" style={{width:"30px",height:"30px"}} />
-                                <img className="-mt-2" src={Php} alt="css" style={{width:"50px",height:"50px" , color:"white"}} />
+                                <img src={Python} alt="javaScript" className="mr-3" style={{width:"50px",height:"50px"}} />
+                                <img src={Tensorflow} alt="html" className="mr-3" style={{width:"50px",height:"50px"}} />
+                                <img className="mr-3" src={Keras} alt="css" style={{width:"50px",height:"50px"}} />
+                                <img className="mr-3" src={Jupyter} alt="css" style={{width:"50px",height:"50px"}} />                                
                             </div>
                         </div>
                     </div>
@@ -406,13 +409,12 @@ export default function Projects() {
                                     <img src={Project5} alt="{ProjectBackgroundTwo}" style={{height:"100%",width:"100%",borderBottomRightRadius:"120px"}} />
                                 </div>
                                 <div className="h-1/2">
-                                    <div className="TechStack-SubHeading mt-10">TECH typ</div>
+                                    <div className="TechStack-SubHeading mt-10">TECH STACK</div>
                                     <div className="flex flex-row mt-5 justify-center ">
-                                    <img src={javaScript} alt="javaScript" className="mr-3" style={{width:"50px",height:"50px"}} />
-                                    <img src={Wordpress} alt="html" className="mr-3" style={{width:"50px",height:"50px"}} />
-                                    <img className="mr-3" src={css} alt="css" style={{width:"50px",height:"50px"}} />
-                                    <img className="mr-3" src={html} alt="css" style={{width:"50px",height:"50px"}} />
-                                    <img className="-mt-2" src={Php} alt="css" style={{width:"70px",height:"70px" , color:"white"}} />
+                                    <img src={Python} alt="javaScript" className="mr-3" style={{width:"50px",height:"50px"}} />
+                                <img src={Tensorflow} alt="html" className="mr-3" style={{width:"50px",height:"50px"}} />
+                                <img className="mr-3" src={Keras} alt="css" style={{width:"50px",height:"50px"}} />
+                                <img className="mr-3" src={Jupyter} alt="css" style={{width:"50px",height:"50px"}} />
                                     </div>
                                 </div>
                             </div>
@@ -420,11 +422,11 @@ export default function Projects() {
                                 <div className="flex justify-end px-5 mt-5" onClick={displayNone5}>
                                     <img src={cross} alt="cross" style={{width:"25px"}} />
                                 </div>
-                                <div className="text-white text-base px-5 text-justify" style={{color:"#B5B4B4"}}>This is the website for online grocery store , basically an online ecommerce website. It has <span className = "text-green-300 text-2xl">20K+</span> visitors every month  </div>
-                                <div className="text-white text-base px-5 text-justify" style={{color:"#B5B4B4"}}>It has support for firebase authentication and use MySql databse. </div>
-                                <div className="text-white text-base px-5 text-justify" style={{color:"#B5B4B4"}}>The application is built using <span className="text-green-300"> HTML, CSS,  JAVASCRIPT, WORDPRESS, PHP.</span> </div>
+                                <div className="text-white text-base px-5 text-justify" style={{color:"#B5B4B4"}}>I have been working with the research paper on the topic <span className = "text-green-300 text-2xl">Sentiment Analysis.</span> The basic idea was to the get better accuracy for the model and use Depp Neural Networks to train the model. I ended up getting the 98% accuracy.  </div>
+                                <div className="text-white text-base px-5 text-justify" style={{color:"#B5B4B4"}}>I have used <span className = "text-green-300 text-2xl">Convolutional Neural Network (CNN) and Extreme Learning Machine (ELM) </span>algorithm to get the final result.</div>
+                                <div className="text-white text-base px-5 text-justify" style={{color:"#B5B4B4"}}>The application is built using <span className="text-green-300"> Pthon , Tensorflow , Keras & JupyterNotebook.</span> </div>
                                 <div className="flex flex-row justify-evenly my-10">
-                                    <a href="https://befreshgroceries.com/" target="_blank" className="px-6 py-2 bg-white rounded-lg text-lg font-semibold">View Demo</a>
+                                    <a href="https://github.com/ashishmishra-bit" target="_blank" className="px-6 py-2 bg-white rounded-lg text-lg font-semibold">View Demo</a>
                                     <a href="https://github.com/ashishmishra-bit" target="_blank" className="px-6 py-2 bg-white rounded-lg text-lg font-semibold">Get Code <i class="fab fa-github"></i></a>
                                 </div>
                             </div>
@@ -462,12 +464,12 @@ export default function Projects() {
                                 <div className="flex justify-end px-5 mt-5" onClick={displayNone6}>
                                     <img src={cross} alt="cross" style={{width:"25px"}} />
                                 </div>
-                                <div className="text-white text-base px-5 text-justify" style={{color:"#B5B4B4"}}>Long back, vedas could only be taught through gurus. But with the advancement in technology and the evolution of learning to e-learning, this app aims to be a source for learning vedas. </div>
-                                <div className="text-white text-base px-5 text-justify" style={{color:"#B5B4B4"}}>The application has more than <span className="text-green-300 text-2xl">5000+ Downlaods</span> & it has recieved <span className="text-green-300 text-2xl">4.5 &#9733;</span> by the users </div>
-                                <div className="text-white text-base px-5 text-justify" style={{color:"#B5B4B4"}}>The application is built using <span className="text-green-300"> Java , Kotlin , Firebase , XML.</span> </div>
+                                <div className="text-white text-base px-5 text-justify" style={{color:"#B5B4B4"}}>The website is build for college society.</div>
+                                <div className="text-white text-base px-5 text-justify" style={{color:"#B5B4B4"}}>This website has shows the past records of GFG KIIT. The projects ,, Webinars & Members present in the society.  </div>
+                                <div className="text-white text-base px-5 text-justify" style={{color:"#B5B4B4"}}>The application is built using <span className="text-green-300"> React.Js , Javascript & Css.</span> </div>
                                 <div className="flex flex-row justify-evenly my-10">
-                                    <a href="https://play.google.com/store/apps/details?id=pradyumna.simhansapp&hl=en_IN&gl=US" target="_blank" className="px-6 py-2 bg-white rounded-lg text-lg font-semibold">View Demo</a>
-                                    <a href="https://github.com/ashishmishra-bit/E-VedaApp" target="_blank" className="px-6 py-2 bg-white rounded-lg text-lg font-semibold">Get Code <i class="fab fa-github"></i></a>
+                                    <a href="https://gfgkiit.co" target="_blank" className="px-6 py-2 bg-white rounded-lg text-lg font-semibold">View Demo</a>
+                                    <a href="https://github.com/ashishmishra-bit/" target="_blank" className="px-6 py-2 bg-white rounded-lg text-lg font-semibold">Get Code <i class="fab fa-github"></i></a>
                                 </div>
                             </div>
                         </div>

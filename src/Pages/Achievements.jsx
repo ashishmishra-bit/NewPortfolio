@@ -78,21 +78,21 @@ export default function Achievements() {
             <pattern
               id="pattern"
               patternUnits="userSpaceOnUse"
-              width={750}
-              height={800}
+              width={1000}
+              height={900}
               className="text-white"
             >
               <rect className="w-full h-full fill-current" />
               <motion.rect variants={text} className="w-full h-full text-gray-600 fill-current" />
             </pattern>
             <text
-              className="text-4xl font-bold"
+              className="text-3xl font-bold"
               text-anchor="middle"
               x="50%"
               y="50%"
               style={{ fill: "url(#pattern)" }}
             >
-            &#64;Ashish Mishra 
+            &#64;Ashish_Archive 
             </text>        
             
       </motion.svg>

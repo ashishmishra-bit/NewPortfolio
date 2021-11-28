@@ -127,7 +127,7 @@ export default function SeePost() {
                         <div className="text-lg">Date - 21st Nov , 2021</div>
                         <div className="text-2xl font-semibold my-2">Sentiment Analysis using Deep Learning</div>
                         <div className="text-lg my-2 text-justify">The growth of the internet due to social networks such as facebook, twitter, Linkedin,  instagram etc. has led to significant users interaction and has empowered users to express their opinions about products, services, events, their preferences among others. </div>
-                        <Link to="/blogs/transfer-learning-with-tensorflow" className="text-lg" style={{ color: "#5AE86B" }}>Read More &#x21e8;</Link>
+                        <Link to="/blogs/sentiment-analysis-using-deep-learning" className="text-lg" style={{ color: "#5AE86B" }}>Read More &#x21e8;</Link>
                     </div>
                 </div>
 

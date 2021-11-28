@@ -5,7 +5,8 @@ import BlogImage1 from '../images/BlogImage2.png'
 import BlogImage3 from '../images/datascience.jpg'
 import BlogImage2 from '../images/mongodb.png'
 import resumeDetails from '../JsonData/resumeDetails'
-
+import Tensoflow from '../images/tensorflow.png'
+import Animation from "../components/Animation"
 
 export default function BlogsLanding() {
     return (
@@ -15,15 +16,15 @@ export default function BlogsLanding() {
 
             <div>
                 <div className="flex flex-row justify-center">
-                    <div className="blogMaze " style={{backgroundImage:`url(${BlogImage1})` , backgroundSize:`100% 100%`}}></div>
-                    <div className="blogMaze ml-2 md:ml-3" style={{backgroundImage:`url(${BlogImage2})` , backgroundSize:`cover`}}></div>
+                    <Link to ="/blogs" className="blogMaze " style={{backgroundImage:`url(${Tensoflow})` , backgroundSize:`100% 100%`}}></Link>
+                    <Link to ="/blogs" className="blogMaze ml-2 md:ml-3" style={{backgroundImage:`url(${BlogImage2})` , backgroundSize:`cover`}}></Link>
                 </div>
                 <div className="flex flex-row justify-center -mt-8 md:-mt-16">
-                    <div className="blogMaze" style={{backgroundImage:`url(${BlogImage3})`}}></div>
+                    <Link to ="/blogs" className="blogMaze" style={{backgroundImage:`url(${BlogImage3})`}}></Link>
                 </div>
             </div>
             <Link to="/blogs" >
-                <div className="text-9xl text-white text-center font-semibold">&#x0355;  &#x0355;  &#x0355;  &#x0355; </div>
+            <Animation />
             </Link>
         </div>
     )

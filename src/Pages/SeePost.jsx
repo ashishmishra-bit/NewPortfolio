@@ -155,13 +155,13 @@ export default function SeePost() {
                 {/* Other BLOG */}
                 <div className="flex flex-row px-36 my-20">
                     <div className="w-1/2">
-                        <img src={BlogImage} alt="BlogImage" style={{width:"550px"}} />
+                        <img src={"https://thenfapost.com/wp-content/uploads/2021/03/ai.jpg"} alt="BlogImage" style={{width:"550px"}} />
                     </div>
                     <div className="w-1/2 flex flex-col justify-between" style={{color:"#9A9A9A"}}>
                         <div className="text-lg">Date - 21st Nov , 2021</div>
-                        <div className="text-2xl font-semibold my-2">Transfer learning with TensorFlow</div>
-                        <div className="text-lg my-2 text-justify">The most pervasive problems in machine learning are related to data: it can be either insufficient, or low-quality. One obvious solution to this set of problems is to acquire more and better data. However, these two often do not go together. We have to sacrifice quality for quantity or vice versa. </div>
-                        <Link to="/blogs/transfer-learning-with-tensorflow" target="_blank" className="text-lg" style={{color:"#5AE86B"}}>Read More &#x21e8;</Link>
+                        <div className="text-2xl font-semibold my-2">Sentiment Analysis using Deep Learning</div>
+                        <div className="text-lg my-2 text-justify">he growth of the internet due to social networks such as facebook, twitter, Linkedin,  instagram etc. has led to significant users interaction and has empowered users to express their opinions about products, services, events, their preferences among others. </div>
+                        <Link to="/blogs/sentiment-analysis-using-deep-learning" target="_blank" className="text-lg" style={{color:"#5AE86B"}}>Read More &#x21e8;</Link>
                     </div>
                 </div>
 

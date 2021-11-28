@@ -16,6 +16,7 @@ import Firebase from "../icons/firebase.png"
 import Java from "../icons/java.gif"
 import { Link } from 'react-router-dom'
 import resumeDetails from '../JsonData/resumeDetails'
+import Animation from "../components/Animation"
 
 
 export default function ProjectLanding() {
@@ -29,7 +30,7 @@ export default function ProjectLanding() {
                     {resumeDetails.projectHome.map((project) => {
                         return (
                             <>
-                                <div className="projectCard flex flex-row items-end mt-5" style={{backgroundImage: `linear-gradient(357.78deg, rgba(0, 0, 0, 0.92) 17.76%, rgba(0, 0, 0, 0) 48.07%),url(${project.imgUrl})`}} >
+                                <Link to = '/projects' className="projectCard flex flex-row items-end mt-5" style={{backgroundImage: `linear-gradient(357.78deg, rgba(0, 0, 0, 0.92) 17.76%, rgba(0, 0, 0, 0) 48.07%),url(${project.imgUrl})`}} >
 
                                     <div className="w-1/2 text-white">{project.title} </div>
                                     <div className="w-1/2 flex flex-row justify-end mb-4">
@@ -43,7 +44,7 @@ export default function ProjectLanding() {
                                             </>
                                         ) : null}
                                     </div>
-                                </div>
+                                </Link>
                             </>
                         )
                     })}
@@ -53,14 +54,14 @@ export default function ProjectLanding() {
                     {resumeDetails.longProjectCardHome.map((project) => {
                         return (
                             <>
-                                <div className="projectCard-long flex flex-row items-end ml-4" style={{backgroundImage: `linear-gradient(357.78deg, rgba(0, 0, 0, 0.92) 17.76%, rgba(0, 0, 0, 0) 48.07%),url(${project.imgUrl})`}}>
+                                <Link to='/projects'  className="projectCard-long flex flex-row items-end ml-4" style={{backgroundImage: `linear-gradient(357.78deg, rgba(0, 0, 0, 0.92) 17.76%, rgba(0, 0, 0, 0) 48.07%),url(${project.imgUrl})`}}>
                                     <div className="w-1/2 lg text-white">{project.title}</div>
                                     <div className="w-1/2 flex flex-row justify-end mb-4">
                                         <img src={project.techStack1} alt="javaScript" className="mr-3"  />
                                         <img src={project.techStack2} alt="html" className="mr-3" style={{width:"40px"}} />
                                         <img src={project.techStack3} alt="css"  />
                                     </div>
-                                </div>
+                                </Link>
                             </>
                         )
                     })}
@@ -69,7 +70,7 @@ export default function ProjectLanding() {
             </div>
 
             <Link to="/projects" >
-                <div className="text-9xl text-white text-center font-semibold">&#x0355;  &#x0355;  &#x0355;  &#x0355; </div>
+                <Animation />
             </Link>
         </div>
     )

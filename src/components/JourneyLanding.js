@@ -6,6 +6,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { Zoom, Flip } from 'react-reveal';
 import resumeDetails from '../JsonData/resumeDetails'
+import Animation from "../components/Animation"
 
 AOS.init({
     duration: 2000,
@@ -94,7 +95,7 @@ export default function JourneyLanding() {
                 </div>
             </div>
             <Link to="/journey" >
-                <div className="text-9xl text-white text-center font-semibold">&#x0355;  &#x0355;  &#x0355;  &#x0355; </div>
+            <Animation />
             </Link>
         </div>
     )
