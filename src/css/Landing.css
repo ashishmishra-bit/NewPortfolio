@@ -3,6 +3,7 @@
 }
 body{
     background-color: #111318; 
+    user-select: none;
 }
 
 ::-webkit-scrollbar{

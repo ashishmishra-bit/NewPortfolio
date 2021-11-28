@@ -200,14 +200,14 @@ export default function Projects() {
                                 </div>
                                 <div className="h-1/2">
                                     <div className="TechStack-SubHeading mt-2 md:mt-10">TECH STACK</div>
-                                    <div className="flex flex-row mt-5 justify-center ">
-                                    <img src={javaScript} alt="javaScript" className="mr-3" style={{width:"50px",height:"50px"}} />
-                                    <img src={Nodejs} alt="html" className="mr-3 -mt-3" style={{width:"75px",height:"75px"}} />
-                                    <img src={Express} alt="css" style={{width:"90px",height:"50px"}} />
+                                    <div className="Popup-TechStack flex flex-row mt-5 justify-center ">
+                                        <img src={javaScript} alt="javaScript" className="mr-3 w-6 h-6 md:w-14 md:h-14" />
+                                        <img src={Nodejs} alt="html" className="mr-3 w-6 h-6  md:w-14 md:h-14"/>
+                                        <img src={Express} alt="css" className="w-10 h-6 md:w-20 md:h-12" />
                                     </div>
                                 </div>
                             </div>
-                            <div className="md:w-1/2 flex flex-col justify-between mt-10 md:mt-0">
+                            <div className="md:w-1/2 flex flex-col justify-between ">
                                 <div className="md:flex justify-end px-5 mt-5 hidden md:block" onClick={displayNone1}>
                                     <img src={cross} alt="cross" style={{width:"25px"}} />
                                 </div>
