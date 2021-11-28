@@ -199,7 +199,7 @@ export default function Projects() {
                                     <img src={Project1} alt="{ProjectBackgroundTwo}" style={{height:"100%",width:"100%",borderBottomRightRadius:"120px"}} />
                                 </div>
                                 <div className="h-1/2">
-                                    <div className="TechStack-SubHeading mt-10">TECH STACK</div>
+                                    <div className="TechStack-SubHeading mt-2 md:mt-10">TECH STACK</div>
                                     <div className="flex flex-row mt-5 justify-center ">
                                     <img src={javaScript} alt="javaScript" className="mr-3" style={{width:"50px",height:"50px"}} />
                                     <img src={Nodejs} alt="html" className="mr-3 -mt-3" style={{width:"75px",height:"75px"}} />
@@ -214,7 +214,7 @@ export default function Projects() {
                                 <div className="text-white text-base px-5 text-justify" style={{color:"#B5B4B4"}}>This Application allows you to stream music from <span className="text-green-300">YouTube</span> while you are connected to voice channels </div>
                                 <div className="text-white text-base px-5 text-justify" style={{color:"#B5B4B4"}}> The application has multiple option like - <ul>&#9900; PLay/Pause Option</ul> <ul>&#9900; Queueing the song</ul> <ul>&#9900; Song can be Looped</ul> </div>
                                 <div className="text-white text-base px-5 text-justify" style={{color:"#B5B4B4"}}>The application is built using a Javascript Library know as <span className="text-green-300">Discod.Js , Youtube API </span> and is Hoted on <span className="text-green-300">Heroku</span> </div>
-                                <div className="flex flex-row justify-evenly my-10">
+                                <div className="flex flex-row justify-evenly my-5 md:my-10">
                                     <a href="https://github.com/ashishmishra-bit/music-bot" target="_blank" className="px-6 py-2 bg-white rounded-lg text-lg font-semibold">View Demo</a>
                                     <a href="https://github.com/ashishmishra-bit/music-bot" target="_blank" className="px-6 py-2 bg-white rounded-lg text-lg font-semibold">Get Code <i class="fab fa-github"></i></a>
                                 </div>
