@@ -125,7 +125,7 @@ const Sidebar = () => {
                 </div>
             </div>
             <div className="social">
-                <a href="https://www.facebook.com/profile.php?id=100008053720762"
+                <a href="https://www.facebook.com/profile.php?id=100014505669905"
                     target="_blank"
                     rel="noopener noreferrer"
                     title="Facebook"
@@ -133,7 +133,7 @@ const Sidebar = () => {
                 >
                     <img src={Facebook} alt="Facebook" style={{ width: "25px" }} />
                 </a>
-                <a href="https://www.linkedin.com/in/ankit-raj-a3405b1b0"
+                <a href="https://www.linkedin.com/in/ashishmishra2002/"
                     target="_blank"
                     rel="noopener noreferrer"
                     title="Linkedin"
@@ -141,7 +141,7 @@ const Sidebar = () => {
                 >
                     <img src={Linkedin} alt="Linkedin" style={{ width: "25px" }} />
                 </a>
-                <a href="https://instagram.com/ankit_r.a.j?igshid=895xw0qgqmx2"
+                <a href="https://www.instagram.com/a_s_h_i_s_h_mishra/"
                     target="_blank"
                     rel="noopener noreferrer"
                     title="Instagram"
@@ -149,7 +149,7 @@ const Sidebar = () => {
                 >
                     <img src={Instagram} alt="Instagram" style={{ width: "25px" }} />
                 </a>
-                <a href="https://github.com/AnkitRajCode"
+                <a href="https://github.com/ashishmishra-bit"
                     target="_blank"
                     rel="noopener noreferrer"
                     title="Github"
@@ -157,7 +157,7 @@ const Sidebar = () => {
                 >
                     <img src={Github} alt="Github" style={{ width: "25px" }} />
                 </a>
-                <a href="https://twitter.com/ankit__raj__?s=08"
+                <a href="https://twitter.com/Ashishk55842106"
                     target="_blank"
                     rel="noopener noreferrer"
                     title="Twitter"
