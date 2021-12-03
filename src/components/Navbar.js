@@ -63,7 +63,7 @@ class Navbar extends Component {
                   <li><a href="/journey" className="nav_event">Journey</a></li>
                   <li><a href="/projects" className="nav_projects">Projects </a></li>
                   <li><a href="/blogs" className="nav_about">Blogs </a></li>
-                  <li><a href="/achivements" className="nav_about">Achivements </a></li>
+                  <li><a href="/achievements" className="nav_about">Achivements </a></li>
                 </ul>
 
                 <div className="burger-menu" id="burger-menu">
