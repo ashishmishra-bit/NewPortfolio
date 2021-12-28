@@ -20,6 +20,7 @@ import '../css/Landing.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
 import { Fade, Zoom } from 'react-reveal';
+import Resume from './Resume';
 AOS.init({
   duration: 2000,
   delay: 5000,
@@ -126,8 +127,8 @@ const Landing = () => {
                 }}
               />
             </Zoom>
-           <a href = "https://drive.google.com/drive/u/0/folders/1bCFV6_GZkgYr300HAAwGM9ysefj9ZlIf" target = "_blank">
-           <button class="button type1">
+           <a href = "/resume">
+           <button class="button type1" >
            <p className="text-white font-bold">Get Resume 🗒️</p>
          </button>
            </a>
