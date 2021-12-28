@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect , useState} from 'react';
 import { motion } from 'framer-motion'
 import Particles from 'particles-bg'
 
@@ -62,7 +62,7 @@ const text = {
 
 const Resume = () => {
 
-    // const [embedUrl] = useState("");
+     const [embedURL] = useState(`https://drive.google.com/file/d/1Qc4qTMvhCpzsmhjBmvnt6lOfmV7IPqw9/preview`)
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -101,10 +101,10 @@ const Resume = () => {
       <Sidebar />
       <div className="home-section">
         {/* HEADING SECTION */}
-        <div className="Landing-header">
+        <div className="">
           <Navbar />
           <Particles color="#48CAE4" type="cobweb" />
-          <iframe src="https://drive.google.com/file/d/1Qc4qTMvhCpzsmhjBmvnt6lOfmV7IPqw9/preview" width="640" height="480" allow="autoplay"></iframe>
+          <iframe src={embedURL} width="640" height="480" allow="autoplay"></iframe>
 
         </div>       
         <Footer />
