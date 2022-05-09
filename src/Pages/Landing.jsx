@@ -127,7 +127,7 @@ const Landing = () => {
                 }}
               />
             </Zoom>
-           <a href = "/resume">
+           <a href = "https://www.codedynamics.tech/resume/ashishmishra">
            <button class="button type1" >
            <p className="text-white font-bold">Get Resume 🗒️</p>
          </button>
