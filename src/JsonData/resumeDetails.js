@@ -43,7 +43,7 @@ export default {
     // Home Page Data Start
 
     name: 'I am Ashish Kumar Mishra',
-    title: 'Frontend | Android | Data Science | UI/UX',
+    title: 'Frontend | Android | Data Science | Backend',
 
     // jobs: 'Student',
     // email: 'ashish.mishra52002@gmail.com',
