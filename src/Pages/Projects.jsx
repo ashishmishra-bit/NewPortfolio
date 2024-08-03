@@ -16,7 +16,7 @@ import css from "../icons/css.svg"
 import react from '../icons/react.png'
 import Nodejs from "../icons/nodejs.png"
 import Express from "../icons/expressjs.png"
-import Wordpress from "../icons/Wordpress.png"
+import Wordpress from "../icons/wordpress.png"
 import Php from "../icons/php.png"
 import Kotlin from "../icons/kotlin.png"
 import Firebase from "../icons/firebase.png"
